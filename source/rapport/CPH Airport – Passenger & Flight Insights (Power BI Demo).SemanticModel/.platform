@@ -1,0 +1,11 @@
+{
+  "$schema": "https://developer.microsoft.com/json-schemas/fabric/gitIntegration/platformProperties/2.0.0/schema.json",
+  "metadata": {
+    "type": "SemanticModel",
+    "displayName": "CPH Airport – Passenger & Flight Insights (Power BI Demo)"
+  },
+  "config": {
+    "version": "2.0",
+    "logicalId": "8dc4308a-fd49-4f41-807e-5f1a861fb280"
+  }
+}

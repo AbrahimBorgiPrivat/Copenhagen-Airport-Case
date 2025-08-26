@@ -1,0 +1,30 @@
+[tool.poetry]
+name = "cph-simulation"
+version = "0.1.0"
+description = "Python code for Copenhagen Airport simulation"
+authors = ["Abrahim Borgi"]
+readme = "README.md"
+packages = [
+  { include = "scripts" },
+  { include = "utils" }
+]
+
+[tool.poetry.dependencies]
+python = ">=3.11,<3.14"
+requests = ">=2.32.3,<3.0.0"
+python-dotenv = ">=0.9.0,<0.10.0"
+tqdm = ">=4.67.1,<5.0.0"
+sqlalchemy = ">=2.0.38,<3.0.0"
+pandas = ">=2.3.0,<3.0.0"
+psycopg2 = ">=2.9.10,<3.0.0"
+openpyxl = ">=3.1.5,<4.0.0"
+pymysql = ">=1.1.1,<2.0.0"
+faker = ">=37.5.3,<38.0.0"
+
+[tool.poetry.group.dev.dependencies]
+pytest = "^8.3.2"
+ruff = "^0.5.7"
+
+[build-system]
+requires = ["poetry-core>=2.0.0,<3.0.0"]
+build-backend = "poetry.core.masonry.api"

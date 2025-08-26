@@ -1,0 +1,103 @@
+table AIRPORTS
+	lineageTag: 62de697c-1dc7-4c47-be49-8831c4dabfd8
+
+	column name
+		dataType: string
+		lineageTag: 1f466f72-4b35-4d29-ad35-98a03f4fc207
+		summarizeBy: none
+		sourceColumn: name
+
+		annotation SummarizationSetBy = Automatic
+
+	column city
+		dataType: string
+		lineageTag: 57bb6989-b7d8-4a6b-8d49-4853af2dbbde
+		summarizeBy: none
+		sourceColumn: city
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: f8b85005-4c4f-4737-897a-86b51dc99179
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column country_code
+		dataType: string
+		lineageTag: 283aa4bc-8645-42f8-bbf5-467212699bdb
+		summarizeBy: none
+		sourceColumn: country_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column latitude
+		dataType: double
+		lineageTag: af53ab13-c955-4f43-8464-3303ea7f9ffe
+		dataCategory: Latitude
+		summarizeBy: none
+		sourceColumn: latitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column longitude
+		dataType: double
+		lineageTag: 57d740e7-58f8-49ef-8ef8-3f05060837a4
+		dataCategory: Longitude
+		summarizeBy: none
+		sourceColumn: longitude
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column world_area_code
+		dataType: int64
+		formatString: 0
+		lineageTag: e28e708c-2eb1-4d17-b7c1-fbb78f1f781b
+		summarizeBy: none
+		sourceColumn: world_area_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column city_name_geo_name_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 2902bcf1-16d7-4ad3-a3a4-a626424d98db
+		summarizeBy: none
+		sourceColumn: city_name_geo_name_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column country_name_geo_name_id
+		dataType: int64
+		formatString: 0
+		lineageTag: 88c29b68-4518-4fa2-8a44-98f34d3e09d4
+		summarizeBy: none
+		sourceColumn: country_name_geo_name_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column iata
+		dataType: string
+		lineageTag: 45cc85a7-942a-40cc-bb4c-b9886c84a6ec
+		summarizeBy: none
+		sourceColumn: iata
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AIRPORTS = m
+		mode: import
+		source =
+				let
+				    Kilde = PostgreSQL.Database("localhost:5432", "cph_airport"),
+				    cph_airport_airports_view = Kilde{[Schema="cph_airport",Item="airports_view"]}[Data]
+				in
+				    cph_airport_airports_view
+
+	annotation PBI_ResultType = Table
+

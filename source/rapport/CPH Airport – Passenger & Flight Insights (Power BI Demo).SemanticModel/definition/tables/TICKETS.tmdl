@@ -1,0 +1,144 @@
+table TICKETS
+	lineageTag: 9e5a9977-d7d2-40fe-b186-d63a533afbd4
+
+	column unique_id
+		dataType: string
+		lineageTag: e4d70a24-7048-4890-999c-5e02765ad496
+		summarizeBy: none
+		sourceColumn: unique_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column transaction_id
+		dataType: string
+		lineageTag: bf3f7211-a02b-4bff-b2b2-1cdc6dc0fdbb
+		summarizeBy: none
+		sourceColumn: transaction_id
+
+		annotation SummarizationSetBy = Automatic
+
+	column seat_number
+		dataType: int64
+		formatString: 0
+		lineageTag: 44630a44-4030-4390-877c-7e6335142696
+		summarizeBy: sum
+		sourceColumn: seat_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column passport_number
+		dataType: string
+		lineageTag: 75921c05-a93d-434f-924a-d65afefb14c8
+		summarizeBy: none
+		sourceColumn: passport_number
+
+		annotation SummarizationSetBy = Automatic
+
+	column check_in_type
+		dataType: string
+		lineageTag: 5b8794c9-356b-4ced-8f53-811add48eccf
+		summarizeBy: none
+		sourceColumn: check_in_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column checkin_time
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 2f638d5c-6509-4480-aa20-6dfc375614ae
+		summarizeBy: none
+		sourceColumn: checkin_time
+
+		annotation SummarizationSetBy = Automatic
+
+	column passed_security_time
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8b00c7d7-e6b5-45c6-a0a8-1436e6138e78
+		summarizeBy: none
+		sourceColumn: passed_security_time
+
+		annotation SummarizationSetBy = Automatic
+
+	column scheduled_local
+		dataType: dateTime
+		formatString: General Date
+		lineageTag: 8101de86-0ef3-4faf-ac49-67ca8e0e5d8d
+		summarizeBy: none
+		sourceColumn: scheduled_local
+
+		annotation SummarizationSetBy = Automatic
+
+	column check_in_time_bef_sched
+		dataType: double
+		lineageTag: 660720f4-c471-4e95-8e04-05c1c739b0ed
+		summarizeBy: sum
+		sourceColumn: check_in_time_bef_sched
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column sek_time_bef_sched
+		dataType: double
+		lineageTag: 595b4efe-0d58-4b66-acc1-32a1e8a48e13
+		summarizeBy: sum
+		sourceColumn: sek_time_bef_sched
+
+		annotation SummarizationSetBy = Automatic
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	column 'check_in_before_schedule (MIN)' = DATEDIFF(TICKETS[checkin_time],TICKETS[scheduled_local],MINUTE)
+		formatString: 0
+		lineageTag: fea9cd7f-2c74-4de9-8c19-3258bbbb04b7
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'check_in_before_schedule (HOUR)' = DATEDIFF(TICKETS[checkin_time],TICKETS[scheduled_local],HOUR)
+		formatString: 0
+		lineageTag: 7802e428-1e63-47f4-afec-7dadac7c5c7c
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'passed_security__before_schedule (MIN)' = DATEDIFF(TICKETS[passed_security_time],TICKETS[scheduled_local],MINUTE)
+		formatString: 0
+		lineageTag: 3654fd6b-3ab2-4f03-9420-3706f2effc77
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'passed_security__before_schedule (HOUR)' = DATEDIFF(TICKETS[passed_security_time],TICKETS[scheduled_local],HOUR)
+		formatString: 0
+		lineageTag: c4d5df9e-4b68-4bf1-a61c-b3d38481fc18
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'check in hour' = HOUR(TICKETS[checkin_time])
+		formatString: 0
+		lineageTag: 7f0b2451-751d-4e6d-a2c5-c348e2d9595c
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	column 'passed security hour' = HOUR(TICKETS[passed_security_time])
+		formatString: 0
+		lineageTag: 749afd34-25fb-462c-b25e-eacc5bb9e470
+		summarizeBy: sum
+
+		annotation SummarizationSetBy = Automatic
+
+	partition TICKETS = m
+		mode: import
+		source =
+				let
+				    Kilde = PostgreSQL.Database("localhost:5432", "cph_airport"),
+				    cph_airport_ticket_view = Kilde{[Schema="cph_airport",Item="ticket_view"]}[Data]
+				in
+				    cph_airport_ticket_view
+
+	annotation PBI_ResultType = Table
+

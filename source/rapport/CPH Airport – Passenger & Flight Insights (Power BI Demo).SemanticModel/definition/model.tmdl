@@ -1,0 +1,27 @@
+model Model
+	culture: da-DK
+	defaultPowerBIDataSourceVersion: powerBI_V3
+	sourceQueryCulture: da-DK
+	dataAccessOptions
+		legacyRedirects
+		returnErrorValuesAsNull
+
+annotation PBI_ProTooling = ["DevMode"]
+
+annotation PBIDesktopVersion = 2.146.1026.0 (25.08)+fb98ab832373de81dccd5c01cd96306a48477556
+
+annotation PBI_QueryOrder = ["AIRCRAFT_MODELS","AIRPORTS","FLIGHTS","PASSPORTS","TICKETS","DATEVIEW"]
+
+annotation __PBI_TimeIntelligenceEnabled = 0
+
+ref table AIRCRAFT_MODELS
+ref table AIRPORTS
+ref table FLIGHTS
+ref table PASSPORTS
+ref table TICKETS
+ref table _MEASURES
+ref table DATEVIEW
+ref table '_CUSTOMTABLE - NUMBERS'
+
+ref cultureInfo da-DK
+

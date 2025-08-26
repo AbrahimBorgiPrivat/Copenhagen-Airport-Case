@@ -1,0 +1,100 @@
+table AIRCRAFT_MODELS
+	lineageTag: 80a1af4f-21de-4b6f-b88c-0e2b6e4da64c
+
+	column aircraft_model
+		dataType: string
+		lineageTag: 6e9d3959-61d0-4993-8ccc-70b53f28cf72
+		summarizeBy: none
+		sourceColumn: aircraft_model
+
+		annotation SummarizationSetBy = Automatic
+
+	column manufacturer
+		dataType: string
+		lineageTag: 9aacf321-06f9-4bd8-99e7-f2f3e54a12db
+		summarizeBy: none
+		sourceColumn: manufacturer
+
+		annotation SummarizationSetBy = Automatic
+
+	column country
+		dataType: string
+		lineageTag: 7c700abe-3d84-4b86-93fe-626f9e331ea7
+		summarizeBy: none
+		sourceColumn: country
+
+		annotation SummarizationSetBy = Automatic
+
+	column seats
+		dataType: int64
+		formatString: 0
+		lineageTag: c980b94d-5136-4f60-a3fe-c51fdac7bd01
+		summarizeBy: none
+		sourceColumn: seats
+
+		annotation SummarizationSetBy = Automatic
+
+	column range_km
+		dataType: int64
+		formatString: 0
+		lineageTag: 99c89657-ea73-45d1-8580-792c14b07b17
+		summarizeBy: none
+		sourceColumn: range_km
+
+		annotation SummarizationSetBy = Automatic
+
+	column engine_type
+		dataType: string
+		lineageTag: fc4cbcbb-4247-4db5-8881-38adc778bc1b
+		summarizeBy: none
+		sourceColumn: engine_type
+
+		annotation SummarizationSetBy = Automatic
+
+	column icao_code
+		dataType: string
+		lineageTag: 6b5b55eb-1909-4282-bc9a-f2f66984d68a
+		summarizeBy: none
+		sourceColumn: icao_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column iata_code
+		dataType: string
+		lineageTag: 39306c2a-06d0-4197-9c9a-badd05d9f039
+		summarizeBy: none
+		sourceColumn: iata_code
+
+		annotation SummarizationSetBy = Automatic
+
+	column seat_interval
+		dataType: string
+		lineageTag: 1e8f2065-a81a-471a-bc09-281dd4642095
+		summarizeBy: none
+		sourceColumn: seat_interval
+		sortByColumn: seat_index
+
+		changedProperty = SortByColumn
+
+		annotation SummarizationSetBy = Automatic
+
+	column seat_index
+		dataType: int64
+		formatString: 0
+		lineageTag: ab3b248c-9bbc-4a47-b186-e4682732aa68
+		summarizeBy: none
+		sourceColumn: seat_index
+
+		annotation SummarizationSetBy = Automatic
+
+	partition AIRCRAFT_MODELS = m
+		mode: import
+		source =
+				let
+				    Kilde = PostgreSQL.Database("localhost:5432", "cph_airport"),
+				    cph_airport_aircraft_models_view = Kilde{[Schema="cph_airport",Item="aircraft_models_view"]}[Data]
+				in
+				    cph_airport_aircraft_models_view
+
+	annotation PBI_ResultType = Table
+

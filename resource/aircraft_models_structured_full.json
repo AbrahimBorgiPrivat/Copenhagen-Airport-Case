@@ -1,0 +1,562 @@
+[
+  {
+    "aircraft_model": "Boeing 787-10",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 330,
+    "range_km": 11910,
+    "engine_type": "Turbofan",
+    "icao_code": "B78X",
+    "iata_code": "781"
+  },
+  {
+    "aircraft_model": "Airbus A220-100",
+    "manufacturer": "Airbus",
+    "country": "Canada/Europe",
+    "seats": 116,
+    "range_km": 6397,
+    "engine_type": "Turbofan",
+    "icao_code": "BCS1",
+    "iata_code": "221"
+  },
+  {
+    "aircraft_model": "Airbus A220-300",
+    "manufacturer": "Airbus",
+    "country": "Canada/Europe",
+    "seats": 145,
+    "range_km": 6200,
+    "engine_type": "Turbofan",
+    "icao_code": "BCS3",
+    "iata_code": "223"
+  },
+  {
+    "aircraft_model": "Airbus A380",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 517,
+    "range_km": 15200,
+    "engine_type": "Turbofan",
+    "icao_code": "A388",
+    "iata_code": "388"
+  },
+  {
+    "aircraft_model": "Canadair CRJ 900NG",
+    "manufacturer": "Bombardier",
+    "country": "Canada",
+    "seats": 76,
+    "range_km": 2956,
+    "engine_type": "Turbofan",
+    "icao_code": "CRJ9",
+    "iata_code": "CR9"
+  },
+  {
+    "aircraft_model": "Airbus A330",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 300,
+    "range_km": 11750,
+    "engine_type": "Turbofan",
+    "icao_code": "A330",
+    "iata_code": "330"
+  },
+  {
+    "aircraft_model": "Boeing 737-900",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 184,
+    "range_km": 5925,
+    "engine_type": "Turbofan",
+    "icao_code": "B739",
+    "iata_code": "739"
+  },
+  {
+    "aircraft_model": "Bombardier Global Express",
+    "manufacturer": "Bombardier",
+    "country": "Canada",
+    "seats": 14,
+    "range_km": 11112,
+    "engine_type": "Turbofan",
+    "icao_code": "GLEX",
+    "iata_code": "CCX"
+  },
+  {
+    "aircraft_model": "Boeing 757",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 200,
+    "range_km": 6315,
+    "engine_type": "Turbofan",
+    "icao_code": "B752",
+    "iata_code": "752"
+  },
+  {
+    "aircraft_model": "ATR 42-300",
+    "manufacturer": "ATR",
+    "country": "France/Italy",
+    "seats": 48,
+    "range_km": 1320,
+    "engine_type": "Turboprop",
+    "icao_code": "AT43",
+    "iata_code": "AT4"
+  },
+  {
+    "aircraft_model": "Boeing 737-800",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 189,
+    "range_km": 5765,
+    "engine_type": "Turbofan",
+    "icao_code": "B738",
+    "iata_code": "738"
+  },
+  {
+    "aircraft_model": "Boeing 737-700",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 137,
+    "range_km": 6230,
+    "engine_type": "Turbofan",
+    "icao_code": "B737",
+    "iata_code": "73G"
+  },
+  {
+    "aircraft_model": "Boeing 777-300ER",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 368,
+    "range_km": 13650,
+    "engine_type": "Turbofan",
+    "icao_code": "B77W",
+    "iata_code": "77W"
+  },
+  {
+    "aircraft_model": "Boeing 787-9",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 296,
+    "range_km": 14140,
+    "engine_type": "Turbofan",
+    "icao_code": "B789",
+    "iata_code": "789"
+  },
+  {
+    "aircraft_model": "Boeing 737-800 (winglets)",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 189,
+    "range_km": 5765,
+    "engine_type": "Turbofan",
+    "icao_code": "B738",
+    "iata_code": "738"
+  },
+  {
+    "aircraft_model": "Bombardier Dash 8 Q400 / DHC-8-400",
+    "manufacturer": "Bombardier",
+    "country": "Canada",
+    "seats": 78,
+    "range_km": 2500,
+    "engine_type": "Turboprop",
+    "icao_code": "DH8D",
+    "iata_code": "DH4"
+  },
+  {
+    "aircraft_model": "Dassault Falcon 900",
+    "manufacturer": "Dassault",
+    "country": "France",
+    "seats": 12,
+    "range_km": 7400,
+    "engine_type": "Turbofan",
+    "icao_code": "F900",
+    "iata_code": "DF9"
+  },
+  {
+    "aircraft_model": "Saab 340",
+    "manufacturer": "Saab",
+    "country": "Sweden",
+    "seats": 34,
+    "range_km": 1730,
+    "engine_type": "Turboprop",
+    "icao_code": "SF34",
+    "iata_code": "SF3"
+  },
+  {
+    "aircraft_model": "Boeing 767-300",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 290,
+    "range_km": 11065,
+    "engine_type": "Turbofan",
+    "icao_code": "B763",
+    "iata_code": "763"
+  },
+  {
+    "aircraft_model": "Airbus A320",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 180,
+    "range_km": 6150,
+    "engine_type": "Turbofan",
+    "icao_code": "A320",
+    "iata_code": "320"
+  },
+  {
+    "aircraft_model": "Boeing 737 MAX 8",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 189,
+    "range_km": 6570,
+    "engine_type": "Turbofan",
+    "icao_code": "B38M",
+    "iata_code": "7M8"
+  },
+  {
+    "aircraft_model": "Embraer 175",
+    "manufacturer": "Embraer",
+    "country": "Brazil",
+    "seats": 76,
+    "range_km": 3334,
+    "engine_type": "Turbofan",
+    "icao_code": "E75L",
+    "iata_code": "E75"
+  },
+  {
+    "aircraft_model": "Airbus A350",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 325,
+    "range_km": 15000,
+    "engine_type": "Turbofan",
+    "icao_code": "A359",
+    "iata_code": "359"
+  },
+  {
+    "aircraft_model": "Canadair CRJ 900",
+    "manufacturer": "Bombardier",
+    "country": "Canada",
+    "seats": 76,
+    "range_km": 2956,
+    "engine_type": "Turbofan",
+    "icao_code": "CRJ9",
+    "iata_code": "CR9"
+  },
+  {
+    "aircraft_model": "Boeing 767-300 Freighter",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 0,
+    "range_km": 6025,
+    "engine_type": "Turbofan",
+    "icao_code": "B763",
+    "iata_code": "76F"
+  },
+  {
+    "aircraft_model": "ATR 72-500",
+    "manufacturer": "ATR",
+    "country": "France/Italy",
+    "seats": 72,
+    "range_km": 1528,
+    "engine_type": "Turboprop",
+    "icao_code": "AT75",
+    "iata_code": "AT5"
+  },
+  {
+    "aircraft_model": "Airbus A319",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 144,
+    "range_km": 6850,
+    "engine_type": "Turbofan",
+    "icao_code": "A319",
+    "iata_code": "319"
+  },
+  {
+    "aircraft_model": "Embraer 170",
+    "manufacturer": "Embraer",
+    "country": "Brazil",
+    "seats": 70,
+    "range_km": 3334,
+    "engine_type": "Turbofan",
+    "icao_code": "E170",
+    "iata_code": "E70"
+  },
+  {
+    "aircraft_model": "Boeing 757-200",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 200,
+    "range_km": 6315,
+    "engine_type": "Turbofan",
+    "icao_code": "B752",
+    "iata_code": "752"
+  },
+  {
+    "aircraft_model": "Airbus A320 NEO",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 180,
+    "range_km": 6500,
+    "engine_type": "Turbofan",
+    "icao_code": "A20N",
+    "iata_code": "32N"
+  },
+  {
+    "aircraft_model": "Airbus A321 (Sharklets)",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 220,
+    "range_km": 5950,
+    "engine_type": "Turbofan",
+    "icao_code": "A321",
+    "iata_code": "321"
+  },
+  {
+    "aircraft_model": "Boeing 787-8",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 248,
+    "range_km": 13620,
+    "engine_type": "Turbofan",
+    "icao_code": "B788",
+    "iata_code": "788"
+  },
+  {
+    "aircraft_model": "Embraer 195",
+    "manufacturer": "Embraer",
+    "country": "Brazil",
+    "seats": 118,
+    "range_km": 4260,
+    "engine_type": "Turbofan",
+    "icao_code": "E195",
+    "iata_code": "E95"
+  },
+  {
+    "aircraft_model": "Boeing 777-300",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 368,
+    "range_km": 11135,
+    "engine_type": "Turbofan",
+    "icao_code": "B773",
+    "iata_code": "773"
+  },
+  {
+    "aircraft_model": "Airbus A320 (Sharklets)",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 180,
+    "range_km": 6150,
+    "engine_type": "Turbofan",
+    "icao_code": "A320",
+    "iata_code": "320"
+  },
+  {
+    "aircraft_model": "Airbus A321 NEO",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 230,
+    "range_km": 7400,
+    "engine_type": "Turbofan",
+    "icao_code": "A21N",
+    "iata_code": "32Q"
+  },
+  {
+    "aircraft_model": "Airbus A300-600",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 270,
+    "range_km": 7500,
+    "engine_type": "Turbofan",
+    "icao_code": "A306",
+    "iata_code": "306"
+  },
+  {
+    "aircraft_model": "Bombardier CRJ900",
+    "manufacturer": "Bombardier",
+    "country": "Canada",
+    "seats": 76,
+    "range_km": 2956,
+    "engine_type": "Turbofan",
+    "icao_code": "CRJ9",
+    "iata_code": "CR9"
+  },
+  {
+    "aircraft_model": "Boeing 767",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 269,
+    "range_km": 11065,
+    "engine_type": "Turbofan",
+    "icao_code": "B762",
+    "iata_code": "762"
+  },
+  {
+    "aircraft_model": "De Havilland Canada DHC-8-400 Dash 8Q",
+    "manufacturer": "De Havilland Canada",
+    "country": "Canada",
+    "seats": 78,
+    "range_km": 2500,
+    "engine_type": "Turboprop",
+    "icao_code": "DH8D",
+    "iata_code": "DH4"
+  },
+  {
+    "aircraft_model": "Boeing 777-200LR",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 317,
+    "range_km": 17395,
+    "engine_type": "Turbofan",
+    "icao_code": "B77L",
+    "iata_code": "77L"
+  },
+  {
+    "aircraft_model": "Airbus A330-200",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 260,
+    "range_km": 13450,
+    "engine_type": "Turbofan",
+    "icao_code": "A332",
+    "iata_code": "332"
+  },
+  {
+    "aircraft_model": "Airbus A320-200",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 180,
+    "range_km": 6150,
+    "engine_type": "Turbofan",
+    "icao_code": "A320",
+    "iata_code": "320"
+  },
+  {
+    "aircraft_model": "Airbus A350-900",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 325,
+    "range_km": 15000,
+    "engine_type": "Turbofan",
+    "icao_code": "A359",
+    "iata_code": "359"
+  },
+  {
+    "aircraft_model": "E295",
+    "manufacturer": "Embraer",
+    "country": "Brazil",
+    "seats": 132,
+    "range_km": 4800,
+    "engine_type": "Turbofan",
+    "icao_code": "E295",
+    "iata_code": "E95"
+  },
+  {
+    "aircraft_model": "BCS3",
+    "manufacturer": "Airbus (Bombardier CS300)",
+    "country": "Canada/Europe",
+    "seats": 145,
+    "range_km": 6200,
+    "engine_type": "Turbofan",
+    "icao_code": "BCS3",
+    "iata_code": "223"
+  },
+  {
+    "aircraft_model": "ATR 72",
+    "manufacturer": "ATR",
+    "country": "France/Italy",
+    "seats": 72,
+    "range_km": 1528,
+    "engine_type": "Turboprop",
+    "icao_code": "AT72",
+    "iata_code": "AT7"
+  },
+  {
+    "aircraft_model": "Embraer 190",
+    "manufacturer": "Embraer",
+    "country": "Brazil",
+    "seats": 100,
+    "range_km": 4260,
+    "engine_type": "Turbofan",
+    "icao_code": "E190",
+    "iata_code": "E90"
+  },
+  {
+    "aircraft_model": "Boeing 787",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 290,
+    "range_km": 13620,
+    "engine_type": "Turbofan",
+    "icao_code": "B788",
+    "iata_code": "788"
+  },
+  {
+    "aircraft_model": "Airbus A318",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 110,
+    "range_km": 5700,
+    "engine_type": "Turbofan",
+    "icao_code": "A318",
+    "iata_code": "318"
+  },
+  {
+    "aircraft_model": "Saab 340 Freighter",
+    "manufacturer": "Saab",
+    "country": "Sweden",
+    "seats": 0,
+    "range_km": 1730,
+    "engine_type": "Turboprop",
+    "icao_code": "SF34",
+    "iata_code": "SF3"
+  },
+  {
+    "aircraft_model": "Boeing 737",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 160,
+    "range_km": 5436,
+    "engine_type": "Turbofan",
+    "icao_code": "B732",
+    "iata_code": "732"
+  },
+  {
+    "aircraft_model": "Airbus A300",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 270,
+    "range_km": 7500,
+    "engine_type": "Turbofan",
+    "icao_code": "A306",
+    "iata_code": "306"
+  },
+  {
+    "aircraft_model": "Boeing 777",
+    "manufacturer": "Boeing",
+    "country": "USA",
+    "seats": 350,
+    "range_km": 9700,
+    "engine_type": "Turbofan",
+    "icao_code": "B772",
+    "iata_code": "772"
+  },
+  {
+    "aircraft_model": "Airbus A330-900",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 300,
+    "range_km": 13334,
+    "engine_type": "Turbofan",
+    "icao_code": "A339",
+    "iata_code": "339"
+  },
+  {
+    "aircraft_model": "Airbus A321",
+    "manufacturer": "Airbus",
+    "country": "Europe",
+    "seats": 220,
+    "range_km": 5950,
+    "engine_type": "Turbofan",
+    "icao_code": "A321",
+    "iata_code": "321"
+  }
+]

@@ -1,0 +1,5479 @@
+{
+  "departures": [
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTAN",
+          "iata": "KYA",
+          "name": "Konya",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2025-07-31 22:55Z",
+          "local": "2025-08-01 00:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-07-31 22:55Z",
+          "local": "2025-08-01 00:55+02:00"
+        },
+        "terminal": "2",
+        "gate": "C32",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "PC 1772",
+      "callSign": "PGT9AE",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-NBA",
+        "modeS": "4BB841",
+        "model": "Airbus A321 (Sharklets)"
+      },
+      "airline": {
+        "name": "Pegasus",
+        "iata": "PC",
+        "icao": "PGT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTAN",
+          "iata": "KYA",
+          "name": "Konya",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2025-07-31 23:20Z",
+          "local": "2025-08-01 01:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-07-31 23:20Z",
+          "local": "2025-08-01 01:20+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-07-31 23:40Z",
+          "local": "2025-08-01 01:40+02:00"
+        },
+        "terminal": "2",
+        "gate": "C33",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XQ 1305",
+      "callSign": "SXS1305",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-SEI",
+        "modeS": "4BCCA9",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Sun Express",
+        "iata": "XQ",
+        "icao": "SXS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIBD",
+          "iata": "BRI",
+          "name": "Bari",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 03:55Z",
+          "local": "2025-08-01 05:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 03:55Z",
+          "local": "2025-08-01 05:55+02:00"
+        },
+        "terminal": "3",
+        "gate": "E24",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2517",
+      "callSign": "SAS2517",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-ROU",
+        "modeS": "4AC9F5",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFMT",
+          "iata": "MPL",
+          "name": "Montpellier/Méditerranée",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:04Z",
+          "local": "2025-08-01 06:04+02:00"
+        },
+        "terminal": "2",
+        "gate": "A27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3628",
+      "callSign": "NSZ3628",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-NIN",
+        "modeS": "479227",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EHAM",
+          "iata": "AMS",
+          "name": "Amsterdam",
+          "timeZone": "Europe/Amsterdam"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "terminal": "2",
+        "gate": "A25",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "KL 1266",
+      "callSign": "KLM1266",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "PH-BXN",
+        "modeS": "484166",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEMG",
+          "iata": "AGP",
+          "name": "Málaga",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "A18",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 583",
+      "callSign": "SAS583",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIE",
+        "modeS": "4CAF7E",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEPA",
+          "iata": "PMI",
+          "name": "Palma De Mallorca",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "B7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 585",
+      "callSign": "SAS69P",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIJ",
+        "modeS": "4CAC79",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFMN",
+          "iata": "NCE",
+          "name": "Nice",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:00Z",
+          "local": "2025-08-01 06:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "E4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 793",
+      "callSign": "SAS793",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SCC",
+        "modeS": "4CAD93",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFG",
+          "iata": "GZP",
+          "name": "Gazipaşa",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:05Z",
+          "local": "2025-08-01 06:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:05Z",
+          "local": "2025-08-01 06:05+02:00"
+        },
+        "terminal": "3",
+        "gate": "C29",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2821",
+      "callSign": "SAS2821",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RUE",
+        "modeS": "4ACAA5",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDM",
+          "iata": "MUC",
+          "name": "Munich",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:05Z",
+          "local": "2025-08-01 06:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:05Z",
+          "local": "2025-08-01 06:05+02:00"
+        },
+        "terminal": "2",
+        "gate": "A23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "LH 2447",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LMML",
+          "iata": "MLA",
+          "name": "Luqa",
+          "timeZone": "Europe/Malta"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:05Z",
+          "local": "2025-08-01 06:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:05Z",
+          "local": "2025-08-01 06:05+02:00"
+        },
+        "terminal": "2",
+        "gate": "A6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3530",
+      "callSign": "NSZ3530",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RPU",
+        "modeS": "4ACA15",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LGRP",
+          "iata": "RHO",
+          "name": "Rodes Island",
+          "timeZone": "Europe/Athens"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "terminal": "3",
+        "gate": "E20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2991",
+      "callSign": "SAS2991",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIK",
+        "modeS": "4CAC7A",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LPPR",
+          "iata": "OPO",
+          "name": "Porto",
+          "timeZone": "Europe/Lisbon"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:25Z",
+          "local": "2025-08-01 06:25+02:00"
+        },
+        "terminal": "3",
+        "gate": "B8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2773",
+      "callSign": "SAS2773",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-ROI",
+        "modeS": "4AC9E9",
+        "model": "Airbus A321 (Sharklets)"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDF",
+          "iata": "FRA",
+          "name": "Frankfurt-am-Main",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "terminal": "2",
+        "gate": "A4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "LH 833",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "D-AIRN",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRF",
+          "iata": "FCO",
+          "name": "Rome",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "terminal": "2",
+        "gate": "F6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FR 406",
+      "callSign": "RYR28QQ",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "9H-QFN",
+        "modeS": "4D2096",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:10Z",
+          "local": "2025-08-01 06:10+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:42Z",
+          "local": "2025-08-01 06:42+02:00"
+        },
+        "terminal": "2",
+        "gate": "A26",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AF 1351",
+      "callSign": "AFR99XF",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "F-HPNI",
+        "modeS": "39BDA8",
+        "model": "Airbus A220-300"
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "AF",
+        "icao": "AFR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LGPZ",
+          "iata": "PVK",
+          "name": "Preveza/Lefkada",
+          "timeZone": "Europe/Athens"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "terminal": "3",
+        "gate": "B4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 7391",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EKVG",
+          "iata": "FAE",
+          "name": "Vagar",
+          "timeZone": "Atlantic/Faroe"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:35Z",
+          "local": "2025-08-01 06:35+02:00"
+        },
+        "terminal": "2",
+        "gate": "A9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "RC 451",
+      "callSign": "FLI451",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-RCM",
+        "modeS": "45C86D",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Atlantic",
+        "iata": "RC",
+        "icao": "FLI"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEAL",
+          "iata": "ALC",
+          "name": "Alicante",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:30Z",
+          "local": "2025-08-01 07:30+02:00"
+        },
+        "terminal": "2",
+        "gate": "F7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FR 4020",
+      "callSign": "RYR70QC",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "9H-QEL",
+        "modeS": "4D224D",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRF",
+          "iata": "FCO",
+          "name": "Rome",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:33Z",
+          "local": "2025-08-01 06:33+02:00"
+        },
+        "terminal": "2",
+        "gate": "A8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3730",
+      "callSign": "NSZ3730",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RTM",
+        "modeS": "4ACA8D",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFMN",
+          "iata": "NCE",
+          "name": "Nice",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:15Z",
+          "local": "2025-08-01 06:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:44Z",
+          "local": "2025-08-01 06:44+02:00"
+        },
+        "terminal": "2",
+        "gate": "D3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3640",
+      "callSign": "NSZ3640",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RTT",
+        "modeS": "4ACA94",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:25Z",
+          "local": "2025-08-01 06:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:25Z",
+          "local": "2025-08-01 06:25+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:39Z",
+          "local": "2025-08-01 06:39+02:00"
+        },
+        "terminal": "2",
+        "gate": "C30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "TK 1788",
+      "callSign": "THY6RN",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-LSU",
+        "modeS": "4BB275",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LBBG",
+          "iata": "BOJ",
+          "name": "Burgas",
+          "timeZone": "Europe/Sofia"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:35Z",
+          "local": "2025-08-01 06:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:35Z",
+          "local": "2025-08-01 06:35+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:46Z",
+          "local": "2025-08-01 06:46+02:00"
+        },
+        "terminal": "3",
+        "gate": "B10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 7597",
+      "callSign": "SAS7597",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-ROR",
+        "modeS": "4AC9F2",
+        "model": "Airbus A321 (Sharklets)"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSZH",
+          "iata": "ZRH",
+          "name": "Zurich",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:40Z",
+          "local": "2025-08-01 06:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:40Z",
+          "local": "2025-08-01 06:40+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:54Z",
+          "local": "2025-08-01 06:54+02:00"
+        },
+        "terminal": "2",
+        "gate": "A17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "LX 1279",
+      "callSign": "SWR8AD",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HB-JPE",
+        "modeS": "4B194E",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "SWISS",
+        "iata": "LX",
+        "icao": "SWR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LDZD",
+          "iata": "ZAD",
+          "name": "Zadar",
+          "timeZone": "Europe/Zagreb"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:40Z",
+          "local": "2025-08-01 06:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:40Z",
+          "local": "2025-08-01 06:40+02:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FR 3026",
+      "callSign": "RYR3026",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-DPH",
+        "modeS": "4CA4EC",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LPPS",
+          "iata": "PXO",
+          "name": "Vila Baleira",
+          "timeZone": "Atlantic/Madeira"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:45Z",
+          "local": "2025-08-01 06:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:45Z",
+          "local": "2025-08-01 06:45+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 04:45Z",
+          "local": "2025-08-01 06:45+02:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "RC 9126",
+      "callSign": "FLI9126",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-RCK",
+        "modeS": "45C86B",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "Atlantic Airways",
+        "iata": "RC",
+        "icao": "FLI"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFBD",
+          "iata": "BOD",
+          "name": "Bordeaux/Mérignac",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:45Z",
+          "local": "2025-08-01 06:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:45Z",
+          "local": "2025-08-01 06:45+02:00"
+        },
+        "terminal": "2",
+        "gate": "A22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3632",
+      "callSign": "NSZ3632",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-NAA",
+        "modeS": "4AB821",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EBBR",
+          "iata": "BRU",
+          "name": "Brussels",
+          "timeZone": "Europe/Brussels"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:50Z",
+          "local": "2025-08-01 06:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:50Z",
+          "local": "2025-08-01 06:50+02:00"
+        },
+        "terminal": "2",
+        "gate": "E4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SN 2268",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Brussels",
+        "iata": "SN",
+        "icao": "BEL"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGSS",
+          "iata": "STN",
+          "name": "London",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:50Z",
+          "local": "2025-08-01 06:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:50Z",
+          "local": "2025-08-01 06:50+02:00"
+        },
+        "terminal": "2",
+        "gate": "F104",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FR 2619",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGSS",
+          "iata": "STN",
+          "name": "London",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:50Z",
+          "local": "2025-08-01 06:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:50Z",
+          "local": "2025-08-01 06:50+02:00"
+        },
+        "terminal": "2",
+        "gate": "F104",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3508",
+      "status": "Departed",
+      "codeshareStatus": "Unknown",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LCLK",
+          "iata": "LCA",
+          "name": "Larnarca",
+          "timeZone": "Asia/Nicosia"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:55Z",
+          "local": "2025-08-01 06:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:55Z",
+          "local": "2025-08-01 06:55+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:26Z",
+          "local": "2025-08-01 07:26+02:00"
+        },
+        "terminal": "2",
+        "gate": "C32",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "JP 375",
+      "callSign": "JTD375",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-JYD",
+        "modeS": "45AB24",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Jettime",
+        "iata": "JP",
+        "icao": "JTD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEMG",
+          "iata": "AGP",
+          "name": "Málaga",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 04:55Z",
+          "local": "2025-08-01 06:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 04:55Z",
+          "local": "2025-08-01 06:55+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:21Z",
+          "local": "2025-08-01 07:21+02:00"
+        },
+        "terminal": "2",
+        "gate": "A21",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3670",
+      "callSign": "NSZ6PY",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-FGJ",
+        "modeS": "47BF9D",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENGM",
+          "iata": "OSL",
+          "name": "Oslo",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "D2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 454",
+      "callSign": "SAS454",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-KBT",
+        "modeS": "45AC54",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ESSA",
+          "iata": "ARN",
+          "name": "Stockholm",
+          "timeZone": "Europe/Stockholm"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "B9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 402",
+      "callSign": "SAS44D",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RON",
+        "modeS": "4AC9EE",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LOWW",
+          "iata": "VIE",
+          "name": "Vienna",
+          "timeZone": "Europe/Vienna"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "terminal": "2",
+        "gate": "A12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "OS 308",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Austrian",
+        "iata": "OS",
+        "icao": "AUA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPWA",
+          "iata": "WAW",
+          "name": "Warsaw",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "terminal": "2",
+        "gate": "B5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "LO 460",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Embraer 195"
+      },
+      "airline": {
+        "name": "LOT - Polish",
+        "iata": "LO",
+        "icao": "LOT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPKK",
+          "iata": "KRK",
+          "name": "Kraków",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:00Z",
+          "local": "2025-08-01 07:00+02:00"
+        },
+        "terminal": "2",
+        "gate": "A6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3562",
+      "callSign": "NSZ3562",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-FGE",
+        "modeS": "47880F",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LGAV",
+          "iata": "ATH",
+          "name": "Athens",
+          "timeZone": "Europe/Athens"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:10Z",
+          "local": "2025-08-01 07:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:10Z",
+          "local": "2025-08-01 07:10+02:00"
+        },
+        "terminal": "3",
+        "gate": "D1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 777",
+      "callSign": "SAS68R",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SCE",
+        "modeS": "4CAD95",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LGKO",
+          "iata": "KGS",
+          "name": "Kos Island",
+          "timeZone": "Europe/Athens"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:10Z",
+          "local": "2025-08-01 07:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:10Z",
+          "local": "2025-08-01 07:10+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:38Z",
+          "local": "2025-08-01 07:38+02:00"
+        },
+        "terminal": "2",
+        "gate": "A11",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "JP 377",
+      "callSign": "JTD377",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-JZK",
+        "modeS": "45AB4B",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Jettime",
+        "iata": "JP",
+        "icao": "JTD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LCLK",
+          "iata": "LCA",
+          "name": "Larnarca",
+          "timeZone": "Asia/Nicosia"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:10Z",
+          "local": "2025-08-01 07:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:10Z",
+          "local": "2025-08-01 07:10+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:27Z",
+          "local": "2025-08-01 07:27+02:00"
+        },
+        "terminal": "3",
+        "gate": "C33",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DK 1192",
+      "callSign": "VKG1192",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-VKA",
+        "modeS": "45D961",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Sunclass",
+        "iata": "DK",
+        "icao": "VKG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LICJ",
+          "iata": "PMO",
+          "name": "Palermo",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:10Z",
+          "local": "2025-08-01 07:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:10Z",
+          "local": "2025-08-01 07:10+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:23Z",
+          "local": "2025-08-01 07:23+02:00"
+        },
+        "terminal": "2",
+        "gate": "A20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3748",
+      "callSign": "NSZ3748",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RTO",
+        "modeS": "4ACA8F",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:25Z",
+          "local": "2025-08-01 07:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:15Z",
+          "local": "2025-08-01 07:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:51Z",
+          "local": "2025-08-01 07:51+02:00"
+        },
+        "terminal": "2",
+        "gate": "E131",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "BA 811",
+      "callSign": "BAW811N",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "G-TTNA",
+        "modeS": "407464",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "British",
+        "iata": "BA",
+        "icao": "BAW"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LGSA",
+          "iata": "CHQ",
+          "name": "Souda",
+          "timeZone": "Europe/Athens"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:20Z",
+          "local": "2025-08-01 07:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:20Z",
+          "local": "2025-08-01 07:20+02:00"
+        },
+        "terminal": "2",
+        "gate": "A9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "JP 213",
+      "callSign": "JTD213",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-JZN",
+        "modeS": "45AB4E",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Jettime",
+        "iata": "JP",
+        "icao": "JTD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "BIKF",
+          "iata": "KEF",
+          "name": "Reykjavik",
+          "timeZone": "Atlantic/Reykjavik"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:20Z",
+          "local": "2025-08-01 07:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:20Z",
+          "local": "2025-08-01 07:20+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:40Z",
+          "local": "2025-08-01 07:40+02:00"
+        },
+        "terminal": "2",
+        "gate": "B8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FI 201",
+      "callSign": "ICE201",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TF-ICU",
+        "modeS": "4CC510",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "Icelandair",
+        "iata": "FI",
+        "icao": "ICE"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LHBP",
+          "iata": "BUD",
+          "name": "Budapest",
+          "timeZone": "Europe/Budapest"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:20Z",
+          "local": "2025-08-01 07:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:20Z",
+          "local": "2025-08-01 07:20+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:29Z",
+          "local": "2025-08-01 07:29+02:00"
+        },
+        "terminal": "2",
+        "gate": "A14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3550",
+      "callSign": "NSZ55YN",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RTN",
+        "modeS": "4ACA8E",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EKRN",
+          "iata": "RNN",
+          "name": "Rønne",
+          "timeZone": "Europe/Copenhagen"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:30Z",
+          "local": "2025-08-01 07:30+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:30Z",
+          "local": "2025-08-01 07:30+02:00"
+        },
+        "terminal": "2",
+        "gate": "A7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DX 32",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "ATR 72"
+      },
+      "airline": {
+        "name": "Danish Air",
+        "iata": "DX",
+        "icao": "DTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENCN",
+          "iata": "KRS",
+          "name": "Kjevik",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:31Z",
+          "local": "2025-08-01 07:31+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:31Z",
+          "local": "2025-08-01 07:31+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:31Z",
+          "local": "2025-08-01 07:31+02:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "P8 3150",
+      "callSign": "SRN3150",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": true,
+      "aircraft": {
+        "reg": "SP-KPH",
+        "modeS": "48A5E7",
+        "model": "Saab 340 Freighter"
+      },
+      "airline": {
+        "name": "Sprint Air",
+        "iata": "P8",
+        "icao": "SRN"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENAL",
+          "iata": "AES",
+          "name": "Ålesund",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:33Z",
+          "local": "2025-08-01 07:33+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:33Z",
+          "local": "2025-08-01 07:33+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:33Z",
+          "local": "2025-08-01 07:33+02:00"
+        },
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "P8 3272",
+      "callSign": "SRN3272",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": true,
+      "aircraft": {
+        "reg": "SP-KPK",
+        "modeS": "48A5E9",
+        "model": "Saab 340 Freighter"
+      },
+      "airline": {
+        "name": "Sprint Air",
+        "iata": "P8",
+        "icao": "SRN"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EKYT",
+          "iata": "AAL",
+          "name": "Aalborg",
+          "timeZone": "Europe/Copenhagen"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:35Z",
+          "local": "2025-08-01 07:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:35Z",
+          "local": "2025-08-01 07:35+02:00"
+        },
+        "terminal": "2",
+        "gate": "A15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3080",
+      "callSign": "NSZ3080",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-FGI",
+        "modeS": "47C0D9",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LPPT",
+          "iata": "LIS",
+          "name": "Lisbon",
+          "timeZone": "Europe/Lisbon"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:40Z",
+          "local": "2025-08-01 07:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:40Z",
+          "local": "2025-08-01 07:40+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:51Z",
+          "local": "2025-08-01 07:51+02:00"
+        },
+        "terminal": "3",
+        "gate": "A18",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2801",
+      "callSign": "SAS2801",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIG",
+        "modeS": "4CAFCC",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRF",
+          "iata": "FCO",
+          "name": "Rome",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:45Z",
+          "local": "2025-08-01 07:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:45Z",
+          "local": "2025-08-01 07:45+02:00"
+        },
+        "terminal": "3",
+        "gate": "B4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 681",
+      "callSign": "SAS49L",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIA",
+        "modeS": "4CACB4",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRQ",
+          "iata": "FLR",
+          "name": "Firenze",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:45Z",
+          "local": "2025-08-01 07:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:45Z",
+          "local": "2025-08-01 07:45+02:00"
+        },
+        "terminal": "3",
+        "gate": "B6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2963",
+      "callSign": "SAS2963",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-KBP",
+        "modeS": "45AC50",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EKYT",
+          "iata": "AAL",
+          "name": "Aalborg",
+          "timeZone": "Europe/Copenhagen"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:45Z",
+          "local": "2025-08-01 07:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:45Z",
+          "local": "2025-08-01 07:45+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 05:52Z",
+          "local": "2025-08-01 07:52+02:00"
+        },
+        "terminal": "3",
+        "gate": "E3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1205",
+      "callSign": "SAS1205",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-MKF",
+        "modeS": "4AB566",
+        "model": "ATR 72"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFBO",
+          "iata": "TLS",
+          "name": "Toulouse-Blagnac",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:50Z",
+          "local": "2025-08-01 07:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:50Z",
+          "local": "2025-08-01 07:50+02:00"
+        },
+        "terminal": "2",
+        "gate": "A8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3626",
+      "callSign": "NSZ3626",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-FGG",
+        "modeS": "47C1F7",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSZH",
+          "iata": "ZRH",
+          "name": "Zurich",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:55Z",
+          "local": "2025-08-01 07:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:55Z",
+          "local": "2025-08-01 07:55+02:00"
+        },
+        "terminal": "3",
+        "gate": "A4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 601",
+      "callSign": "SAS601",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RSX",
+        "modeS": "4ACA78",
+        "model": "Embraer 195"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPKK",
+          "iata": "KRK",
+          "name": "Kraków",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:55Z",
+          "local": "2025-08-01 07:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:55Z",
+          "local": "2025-08-01 07:55+02:00"
+        },
+        "terminal": "2",
+        "gate": "F9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FR 2762",
+      "callSign": "RYR2762",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SP-RND",
+        "modeS": "48C1A3",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGKK",
+          "iata": "LGW",
+          "name": "London",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:55Z",
+          "local": "2025-08-01 07:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 05:55Z",
+          "local": "2025-08-01 07:55+02:00"
+        },
+        "terminal": "2",
+        "gate": "C30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3510",
+      "callSign": "NSZ3510",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RTP",
+        "modeS": "4ACA90",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDS",
+          "iata": "STR",
+          "name": "Stuttgart",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "B5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 657",
+      "callSign": "SAS657",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-GED",
+        "modeS": "4CAFD7",
+        "model": "Canadair CRJ 900"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDS",
+          "iata": "STR",
+          "name": "Stuttgart",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "B5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 657",
+      "callSign": "SAS657",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-GED",
+        "modeS": "4CAFD7",
+        "model": "Canadair CRJ 900"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENVA",
+          "iata": "TRD",
+          "name": "Trondheim",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "A17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2882",
+      "callSign": "SAS68H",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-FPS",
+        "modeS": "4CAC9F",
+        "model": "Bombardier CRJ900"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENVA",
+          "iata": "TRD",
+          "name": "Trondheim",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "A17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2882",
+      "callSign": "SAS68H",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-FPS",
+        "modeS": "4CAC9F",
+        "model": "Bombardier CRJ900"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPKK",
+          "iata": "KRK",
+          "name": "Kraków",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "E1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1735",
+      "callSign": "SAS98K",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-GEA",
+        "modeS": "4CACB0",
+        "model": "Bombardier CRJ900"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPKK",
+          "iata": "KRK",
+          "name": "Kraków",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "E1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1735",
+      "callSign": "SAS98K",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-GEA",
+        "modeS": "4CACB0",
+        "model": "Bombardier CRJ900"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ESSA",
+          "iata": "ARN",
+          "name": "Stockholm",
+          "timeZone": "Europe/Stockholm"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "D2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1416",
+      "callSign": "SAS46M",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-DOZ",
+        "modeS": "4A91FA",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ESSA",
+          "iata": "ARN",
+          "name": "Stockholm",
+          "timeZone": "Europe/Stockholm"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "terminal": "3",
+        "gate": "D2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1416",
+      "callSign": "SAS46M",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-DOZ",
+        "modeS": "4A91FA",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LGKO",
+          "iata": "KGS",
+          "name": "Kos Island",
+          "timeZone": "Europe/Athens"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:05Z",
+          "local": "2025-08-01 07:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:37Z",
+          "local": "2025-08-01 08:37+02:00"
+        },
+        "terminal": "3",
+        "gate": "D4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DK 1184",
+      "callSign": "VKG1184",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-VKE",
+        "modeS": "45D965",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Sunclass",
+        "iata": "DK",
+        "icao": "VKG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LGKO",
+          "iata": "KGS",
+          "name": "Kos Island",
+          "timeZone": "Europe/Athens"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:05Z",
+          "local": "2025-08-01 07:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:00Z",
+          "local": "2025-08-01 08:00+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:37Z",
+          "local": "2025-08-01 08:37+02:00"
+        },
+        "terminal": "3",
+        "gate": "D4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DK 1184",
+      "callSign": "VKG1184",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-VKE",
+        "modeS": "45D965",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Sunclass",
+        "iata": "DK",
+        "icao": "VKG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EBBR",
+          "iata": "BRU",
+          "name": "Brussels",
+          "timeZone": "Europe/Brussels"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:05Z",
+          "local": "2025-08-01 08:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:05Z",
+          "local": "2025-08-01 08:05+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:26Z",
+          "local": "2025-08-01 08:26+02:00"
+        },
+        "terminal": "3",
+        "gate": "E5",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 593",
+      "callSign": "SAS57B",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RSK",
+        "modeS": "4ACA6B",
+        "model": "Embraer 195"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFLL",
+          "iata": "LYS",
+          "name": "Lyon",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:05Z",
+          "local": "2025-08-01 08:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:05Z",
+          "local": "2025-08-01 08:05+02:00"
+        },
+        "terminal": "3",
+        "gate": "E4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1793",
+      "callSign": "SAS1793",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-FPW",
+        "modeS": "4CAF94",
+        "model": "Canadair CRJ 900NG"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENGM",
+          "iata": "OSL",
+          "name": "Oslo",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:05Z",
+          "local": "2025-08-01 08:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:05Z",
+          "local": "2025-08-01 08:05+02:00"
+        },
+        "terminal": "3",
+        "gate": "D3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1462",
+      "callSign": "SAS52L",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RUR",
+        "modeS": "4ACAB2",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENBR",
+          "iata": "BGO",
+          "name": "Bergen",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:10Z",
+          "local": "2025-08-01 08:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:10Z",
+          "local": "2025-08-01 08:10+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:24Z",
+          "local": "2025-08-01 08:24+02:00"
+        },
+        "terminal": "3",
+        "gate": "E6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2862",
+      "callSign": "SAS2862",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RSV",
+        "modeS": "4ACA76",
+        "model": "Embraer 195"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDH",
+          "iata": "HAM",
+          "name": "Hamburg",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:10Z",
+          "local": "2025-08-01 08:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:10Z",
+          "local": "2025-08-01 08:10+02:00"
+        },
+        "terminal": "3",
+        "gate": "B16",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1641",
+      "callSign": "SAS1641",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-MKA",
+        "modeS": "4AB561",
+        "model": "ATR 72"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEVC",
+          "iata": "VLC",
+          "name": "Valencia",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:10Z",
+          "local": "2025-08-01 08:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:10Z",
+          "local": "2025-08-01 08:10+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:26Z",
+          "local": "2025-08-01 08:26+02:00"
+        },
+        "terminal": "2",
+        "gate": "A21",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3654",
+      "callSign": "NSZ3654",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RPT",
+        "modeS": "4ACA14",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EKSB",
+          "iata": "SGD",
+          "name": "Sønderborg",
+          "timeZone": "Europe/Copenhagen"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "terminal": "2",
+        "gate": "A7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "6I 102",
+      "callSign": "MMD102",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-CLZ",
+        "modeS": "458D9A",
+        "model": "ATR 72"
+      },
+      "airline": {
+        "name": "Air Alsie",
+        "iata": "6I",
+        "icao": "MMD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPWA",
+          "iata": "WAW",
+          "name": "Warsaw",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:24Z",
+          "local": "2025-08-01 08:24+02:00"
+        },
+        "terminal": "3",
+        "gate": "B15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 751",
+      "callSign": "SAS751",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RSL",
+        "modeS": "4ACA6C",
+        "model": "Embraer 195"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:29Z",
+          "local": "2025-08-01 08:29+02:00"
+        },
+        "terminal": "3",
+        "gate": "C27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 501",
+      "callSign": "SAS84F",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SII",
+        "modeS": "4CAFCE",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EHAM",
+          "iata": "AMS",
+          "name": "Amsterdam",
+          "timeZone": "Europe/Amsterdam"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:23Z",
+          "local": "2025-08-01 09:23+02:00"
+        },
+        "terminal": "3",
+        "gate": "E7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2551",
+      "callSign": "SAS2551",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RSR",
+        "modeS": "4ACA72",
+        "model": "Embraer 195"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIRP",
+          "iata": "PSA",
+          "name": "Pisa",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:29Z",
+          "local": "2025-08-01 08:29+02:00"
+        },
+        "terminal": "2",
+        "gate": "A6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3736",
+      "callSign": "NSZ6UK",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-FGH",
+        "modeS": "47C0FD",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EVRA",
+          "iata": "RIX",
+          "name": "Riga",
+          "timeZone": "Europe/Riga"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:15Z",
+          "local": "2025-08-01 08:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:40Z",
+          "local": "2025-08-01 08:40+02:00"
+        },
+        "terminal": "2",
+        "gate": "A23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "BT 132",
+      "callSign": "BTI13G",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "YR-ABA",
+        "modeS": "4A0441",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "airBaltic",
+        "iata": "BT",
+        "icao": "BTI"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIEO",
+          "iata": "OLB",
+          "name": "Olbia",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:35Z",
+          "local": "2025-08-01 08:35+02:00"
+        },
+        "terminal": "3",
+        "gate": "B7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 789",
+      "callSign": "SAS789",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIO",
+        "modeS": "4CAD42",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EIDW",
+          "iata": "DUB",
+          "name": "Dublin",
+          "timeZone": "Europe/Dublin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:34Z",
+          "local": "2025-08-01 08:34+02:00"
+        },
+        "terminal": "2",
+        "gate": "C28",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3606",
+      "callSign": "NSZ66Y",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RRE",
+        "modeS": "4ACA45",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:30Z",
+          "local": "2025-08-01 08:30+02:00"
+        },
+        "terminal": "3",
+        "gate": "B19",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 565",
+      "callSign": "SAS21D",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-KBO",
+        "modeS": "45AC4F",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENZV",
+          "iata": "SVG",
+          "name": "Stavanger",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:39Z",
+          "local": "2025-08-01 08:39+02:00"
+        },
+        "terminal": "3",
+        "gate": "A26",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1870",
+      "callSign": "SAS1870",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-FPR",
+        "modeS": "4CACA0",
+        "model": "Canadair CRJ 900NG"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDB",
+          "iata": "BER",
+          "name": "Berlin",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:20Z",
+          "local": "2025-08-01 08:20+02:00"
+        },
+        "terminal": "3",
+        "gate": "A14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1673",
+      "callSign": "SAS1673",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-KBR",
+        "modeS": "45AC52",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGCC",
+          "iata": "MAN",
+          "name": "Manchester",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:25Z",
+          "local": "2025-08-01 08:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:25Z",
+          "local": "2025-08-01 08:25+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:36Z",
+          "local": "2025-08-01 08:36+02:00"
+        },
+        "terminal": "3",
+        "gate": "E112",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 539",
+      "callSign": "SAS67C",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RSN",
+        "modeS": "4ACA6E",
+        "model": "Embraer 195"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIMC",
+          "iata": "MXP",
+          "name": "Milan",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:25Z",
+          "local": "2025-08-01 08:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:25Z",
+          "local": "2025-08-01 08:25+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:44Z",
+          "local": "2025-08-01 08:44+02:00"
+        },
+        "terminal": "3",
+        "gate": "B9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1685",
+      "callSign": "SAS71K",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-JTP",
+        "modeS": "45AA90",
+        "model": "Boeing 737-700"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "BGGH",
+          "iata": "GOH",
+          "name": "Nuuk",
+          "timeZone": "America/Nuuk"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:25Z",
+          "local": "2025-08-01 08:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:25Z",
+          "local": "2025-08-01 08:25+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:45Z",
+          "local": "2025-08-01 08:45+02:00"
+        },
+        "terminal": "2",
+        "gate": "B10",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "GL 779",
+      "callSign": "GRL779",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-GKN",
+        "modeS": "459D6E",
+        "model": "Airbus A330"
+      },
+      "airline": {
+        "name": "Air Greenland",
+        "iata": "GL",
+        "icao": "GRL"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "BIKF",
+          "iata": "KEF",
+          "name": "Reykjavik",
+          "timeZone": "Atlantic/Reykjavik"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:30Z",
+          "local": "2025-08-01 08:30+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:30Z",
+          "local": "2025-08-01 08:30+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:49Z",
+          "local": "2025-08-01 08:49+02:00"
+        },
+        "terminal": "3",
+        "gate": "A22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 595",
+      "callSign": "SAS595",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIR",
+        "modeS": "4CAD86",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ESGG",
+          "iata": "GOT",
+          "name": "Goteborg",
+          "timeZone": "Europe/Stockholm"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:30Z",
+          "local": "2025-08-01 08:30+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:30Z",
+          "local": "2025-08-01 08:30+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:42Z",
+          "local": "2025-08-01 08:42+02:00"
+        },
+        "terminal": "3",
+        "gate": "E2",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 434",
+      "callSign": "SAS434",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-MKB",
+        "modeS": "4AB562",
+        "model": "ATR 72"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENGM",
+          "iata": "OSL",
+          "name": "Oslo",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 05:30Z",
+          "local": "2025-08-01 07:30+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:30Z",
+          "local": "2025-08-01 08:30+02:00"
+        },
+        "terminal": "2",
+        "gate": "E3",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "E4 503",
+      "callSign": "ENT503",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SP-ESI",
+        "modeS": "489228",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Enter Air",
+        "iata": "E4",
+        "icao": "ENT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LMML",
+          "iata": "MLA",
+          "name": "Luqa",
+          "timeZone": "Europe/Malta"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:35Z",
+          "local": "2025-08-01 08:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:35Z",
+          "local": "2025-08-01 08:35+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:52Z",
+          "local": "2025-08-01 08:52+02:00"
+        },
+        "terminal": "3",
+        "gate": "B8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2767",
+      "callSign": "SAS2767",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-JZP",
+        "modeS": "45AB50",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LDDU",
+          "iata": "DBV",
+          "name": "Dubrovnik",
+          "timeZone": "Europe/Zagreb"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:35Z",
+          "local": "2025-08-01 08:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:35Z",
+          "local": "2025-08-01 08:35+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:51Z",
+          "local": "2025-08-01 08:51+02:00"
+        },
+        "terminal": "3",
+        "gate": "A20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2833",
+      "callSign": "SAS2833",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-JYB",
+        "modeS": "45AB22",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EKBI",
+          "iata": "BLL",
+          "name": "Billund",
+          "timeZone": "Europe/Copenhagen"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:35Z",
+          "local": "2025-08-01 08:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:35Z",
+          "local": "2025-08-01 08:35+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:41Z",
+          "local": "2025-08-01 08:41+02:00"
+        },
+        "terminal": "3",
+        "gate": "E4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1281",
+      "callSign": "SAS1281",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-MNP",
+        "modeS": "4AB5D0",
+        "model": "ATR 72"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LKPR",
+          "iata": "PRG",
+          "name": "Prague",
+          "timeZone": "Europe/Prague"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:40Z",
+          "local": "2025-08-01 08:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:40Z",
+          "local": "2025-08-01 08:40+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:53Z",
+          "local": "2025-08-01 08:53+02:00"
+        },
+        "terminal": "3",
+        "gate": "A11",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 767",
+      "callSign": "SAS767",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-FPT",
+        "modeS": "4CACC8",
+        "model": "Canadair CRJ 900NG"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDB",
+          "iata": "BER",
+          "name": "Berlin",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:40Z",
+          "local": "2025-08-01 08:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:40Z",
+          "local": "2025-08-01 08:40+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:47Z",
+          "local": "2025-08-01 08:47+02:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EC 5262",
+      "callSign": "EJU76BD",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OE-IVD",
+        "modeS": "440051",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "EasyJet Europe",
+        "iata": "EC",
+        "icao": "EJU"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDB",
+          "iata": "BER",
+          "name": "Berlin",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:40Z",
+          "local": "2025-08-01 08:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:40Z",
+          "local": "2025-08-01 08:40+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:47Z",
+          "local": "2025-08-01 08:47+02:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "U2 5262",
+      "callSign": "EJU76BD",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OE-IVD",
+        "modeS": "440051",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "easyJet",
+        "iata": "U2",
+        "icao": "EZY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LDSP",
+          "iata": "SPU",
+          "name": "Split",
+          "timeZone": "Europe/Zagreb"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:25Z",
+          "local": "2025-08-01 08:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:40Z",
+          "local": "2025-08-01 08:40+02:00"
+        },
+        "terminal": "3",
+        "gate": "A12",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2831",
+      "callSign": "SAS2831",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SCG",
+        "modeS": "4CAD97",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPWA",
+          "iata": "WAW",
+          "name": "Warsaw",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:45Z",
+          "local": "2025-08-01 08:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:45Z",
+          "local": "2025-08-01 08:45+02:00"
+        },
+        "terminal": "2",
+        "gate": "F6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "W6 1368",
+      "callSign": "WZZ87CL",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "9H-GMT",
+        "modeS": "4D204A",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Wizz Air",
+        "iata": "W6",
+        "icao": "WZZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEMD",
+          "iata": "MAD",
+          "name": "Madrid",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:50Z",
+          "local": "2025-08-01 08:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:50Z",
+          "local": "2025-08-01 08:50+02:00"
+        },
+        "terminal": "3",
+        "gate": "D1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 581",
+      "callSign": "SAS581",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RZA",
+        "modeS": "4ACB41",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENGM",
+          "iata": "OSL",
+          "name": "Oslo",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:50Z",
+          "local": "2025-08-01 08:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:50Z",
+          "local": "2025-08-01 08:50+02:00"
+        },
+        "terminal": "3",
+        "gate": "B6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1464",
+      "callSign": "SAS83D",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-ROT",
+        "modeS": "4AC9F4",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "KJFK",
+          "iata": "JFK",
+          "name": "New York",
+          "timeZone": "America/New_York"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:00Z",
+          "local": "2025-08-01 09:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:50Z",
+          "local": "2025-08-01 08:50+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:20Z",
+          "local": "2025-08-01 09:20+02:00"
+        },
+        "terminal": "2",
+        "gate": "C34",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DL 219",
+      "callSign": "DAL219",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "N194DN",
+        "modeS": "A1775F",
+        "model": "Boeing 767-300"
+      },
+      "airline": {
+        "name": "Delta Air Lines",
+        "iata": "DL",
+        "icao": "DAL"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDM",
+          "iata": "MUC",
+          "name": "Munich",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:50Z",
+          "local": "2025-08-01 08:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:50Z",
+          "local": "2025-08-01 08:50+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 06:54Z",
+          "local": "2025-08-01 08:54+02:00"
+        },
+        "terminal": "2",
+        "gate": "A8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "LH 2439",
+      "callSign": "DLH2RP",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "D-AIRF",
+        "modeS": "3C6646",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEBL",
+          "iata": "BCN",
+          "name": "Barcelona",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:55Z",
+          "local": "2025-08-01 08:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:55Z",
+          "local": "2025-08-01 08:55+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:21Z",
+          "local": "2025-08-01 09:21+02:00"
+        },
+        "terminal": "2",
+        "gate": "A18",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3656",
+      "callSign": "NSZ56V",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RPM",
+        "modeS": "4ACA0D",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "GCRR",
+          "iata": "ACE",
+          "name": "Lanzarote Island",
+          "timeZone": "Atlantic/Canary"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:55Z",
+          "local": "2025-08-01 08:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 06:55Z",
+          "local": "2025-08-01 08:55+02:00"
+        },
+        "terminal": "3",
+        "gate": "A25",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DK 1104",
+      "callSign": "VKG1104",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OY-TCN",
+        "modeS": "45D06E",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Sunclass",
+        "iata": "DK",
+        "icao": "VKG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EFHK",
+          "iata": "HEL",
+          "name": "Helsinki",
+          "timeZone": "Europe/Helsinki"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 06:50Z",
+          "local": "2025-08-01 08:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:00Z",
+          "local": "2025-08-01 09:00+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:23Z",
+          "local": "2025-08-01 09:23+02:00"
+        },
+        "terminal": "2",
+        "gate": "A6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AY 952",
+      "callSign": "FIN7RX",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OH-LZI",
+        "modeS": "461F9E",
+        "model": "Airbus A321 (Sharklets)"
+      },
+      "airline": {
+        "name": "Finnair",
+        "iata": "AY",
+        "icao": "FIN"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDL",
+          "iata": "DUS",
+          "name": "Düsseldorf",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:05Z",
+          "local": "2025-08-01 09:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:05Z",
+          "local": "2025-08-01 09:05+02:00"
+        },
+        "terminal": "2",
+        "gate": "A4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EW 9243",
+      "callSign": "EWG74P",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "D-AKNT",
+        "modeS": "3C6DD4",
+        "model": "Airbus A319"
+      },
+      "airline": {
+        "name": "Eurowings",
+        "iata": "EW",
+        "icao": "EWG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OTHH",
+          "iata": "DOH",
+          "name": "Doha",
+          "timeZone": "Asia/Qatar"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:05Z",
+          "local": "2025-08-01 09:05+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:05Z",
+          "local": "2025-08-01 09:05+02:00"
+        },
+        "terminal": "2",
+        "gate": "C32",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "QR 162",
+      "callSign": "QTR16K",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A7-BCZ",
+        "modeS": "06A0BE",
+        "model": "Boeing 787-8"
+      },
+      "airline": {
+        "name": "Qatar",
+        "iata": "QR",
+        "icao": "QTR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFSB",
+          "iata": "BSL",
+          "name": "Bâle/Mulhouse",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:15Z",
+          "local": "2025-08-01 09:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:15Z",
+          "local": "2025-08-01 09:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:49Z",
+          "local": "2025-08-01 09:49+02:00"
+        },
+        "terminal": "2",
+        "gate": "F7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DS 1264",
+      "callSign": "EZS59YK",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HB-JXD",
+        "modeS": "4B1A1D",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Easyjet Switzerland",
+        "iata": "DS",
+        "icao": "EZS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFSB",
+          "iata": "BSL",
+          "name": "Bâle/Mulhouse",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:15Z",
+          "local": "2025-08-01 09:15+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:15Z",
+          "local": "2025-08-01 09:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:49Z",
+          "local": "2025-08-01 09:49+02:00"
+        },
+        "terminal": "2",
+        "gate": "F7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "U2 1264",
+      "callSign": "EZS59YK",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HB-JXD",
+        "modeS": "4B1A1D",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "easyJet",
+        "iata": "U2",
+        "icao": "EZY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EHAM",
+          "iata": "AMS",
+          "name": "Amsterdam",
+          "timeZone": "Europe/Amsterdam"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:20Z",
+          "local": "2025-08-01 09:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:20Z",
+          "local": "2025-08-01 09:20+02:00"
+        },
+        "terminal": "2",
+        "gate": "A23",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "KL 1268",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Embraer 190"
+      },
+      "airline": {
+        "name": "KLM",
+        "iata": "KL",
+        "icao": "KLM"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEBL",
+          "iata": "BCN",
+          "name": "Barcelona",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:30Z",
+          "local": "2025-08-01 09:30+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:20Z",
+          "local": "2025-08-01 09:20+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:35Z",
+          "local": "2025-08-01 09:35+02:00"
+        },
+        "terminal": "2",
+        "gate": "A21",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "VY 1871",
+      "callSign": "VLG2EQ",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EC-MHA",
+        "modeS": "345041",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Vueling",
+        "iata": "VY",
+        "icao": "VLG"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ENGM",
+          "iata": "OSL",
+          "name": "Oslo",
+          "timeZone": "Europe/Oslo"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:20Z",
+          "local": "2025-08-01 09:20+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:20Z",
+          "local": "2025-08-01 09:20+02:00"
+        },
+        "terminal": "2",
+        "gate": "A22",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DY 933",
+      "callSign": "NOZ933",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-NIL",
+        "modeS": "4792D3",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Norwegian Air Shuttle",
+        "iata": "DY",
+        "icao": "NOZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:25Z",
+          "local": "2025-08-01 09:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:25Z",
+          "local": "2025-08-01 09:25+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:45Z",
+          "local": "2025-08-01 09:45+02:00"
+        },
+        "terminal": "2",
+        "gate": "F9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "U2 4648",
+      "callSign": "EJU45HL",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OE-IVS",
+        "modeS": "4400E3",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "easyJet",
+        "iata": "U2",
+        "icao": "EZY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:25Z",
+          "local": "2025-08-01 09:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:25Z",
+          "local": "2025-08-01 09:25+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 07:45Z",
+          "local": "2025-08-01 09:45+02:00"
+        },
+        "terminal": "2",
+        "gate": "F9",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EC 4648",
+      "callSign": "EJU45HL",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OE-IVS",
+        "modeS": "4400E3",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "EasyJet Europe",
+        "iata": "EC",
+        "icao": "EJU"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ESSA",
+          "iata": "ARN",
+          "name": "Stockholm",
+          "timeZone": "Europe/Stockholm"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:35Z",
+          "local": "2025-08-01 09:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:35Z",
+          "local": "2025-08-01 09:35+02:00"
+        },
+        "terminal": "3",
+        "gate": "B7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1418",
+      "callSign": "SAS58E",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIH",
+        "modeS": "4CAFCD",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTAI",
+          "iata": "AYT",
+          "name": "Antalya",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:45Z",
+          "local": "2025-08-01 09:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:35Z",
+          "local": "2025-08-01 09:35+02:00"
+        },
+        "terminal": "2",
+        "gate": "C28",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XQ 571",
+      "callSign": "SXS3RB",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-SPJ",
+        "modeS": "4BCE0A",
+        "model": "Boeing 737"
+      },
+      "airline": {
+        "name": "Sun Express",
+        "iata": "XQ",
+        "icao": "SXS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EDDF",
+          "iata": "FRA",
+          "name": "Frankfurt-am-Main",
+          "timeZone": "Europe/Berlin"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:35Z",
+          "local": "2025-08-01 09:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:35Z",
+          "local": "2025-08-01 09:35+02:00"
+        },
+        "terminal": "2",
+        "gate": "A14",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "LH 825",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "D-AISQ",
+        "modeS": "3C6671",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Lufthansa",
+        "iata": "LH",
+        "icao": "DLH"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSZH",
+          "iata": "ZRH",
+          "name": "Zurich",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:40Z",
+          "local": "2025-08-01 09:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:40Z",
+          "local": "2025-08-01 09:40+02:00"
+        },
+        "terminal": "2",
+        "gate": "A15",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "LX 1267",
+      "callSign": "SWR359D",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "HB-JDA",
+        "modeS": "4B1812",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SWISS",
+        "iata": "LX",
+        "icao": "SWR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LOWW",
+          "iata": "VIE",
+          "name": "Vienna",
+          "timeZone": "Europe/Vienna"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:40Z",
+          "local": "2025-08-01 09:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:40Z",
+          "local": "2025-08-01 09:40+02:00"
+        },
+        "terminal": "2",
+        "gate": "A17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "OS 302",
+      "callSign": "AUA30P",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OE-LBD",
+        "modeS": "440039",
+        "model": "Airbus A321"
+      },
+      "airline": {
+        "name": "Austrian",
+        "iata": "OS",
+        "icao": "AUA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSGG",
+          "iata": "GVA",
+          "name": "Geneva",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:45Z",
+          "local": "2025-08-01 09:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:45Z",
+          "local": "2025-08-01 09:45+02:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "U2 1538",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "easyJet",
+        "iata": "U2",
+        "icao": "EZY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LSGG",
+          "iata": "GVA",
+          "name": "Geneva",
+          "timeZone": "Europe/Zurich"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:45Z",
+          "local": "2025-08-01 09:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:45Z",
+          "local": "2025-08-01 09:45+02:00"
+        },
+        "terminal": "2",
+        "gate": "F8",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "DS 1538",
+      "status": "Departed",
+      "codeshareStatus": "IsCodeshared",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A320 (sharklets)"
+      },
+      "airline": {
+        "name": "Easyjet Switzerland",
+        "iata": "DS",
+        "icao": "EZS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEPA",
+          "iata": "PMI",
+          "name": "Palma De Mallorca",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:50Z",
+          "local": "2025-08-01 09:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:50Z",
+          "local": "2025-08-01 09:50+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 08:12Z",
+          "local": "2025-08-01 10:12+02:00"
+        },
+        "terminal": "2",
+        "gate": "F7",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FR 2881",
+      "callSign": "RYR54PW",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SP-RKF",
+        "modeS": "48C125",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIME",
+          "iata": "BGY",
+          "name": "Bergamo",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:55Z",
+          "local": "2025-08-01 09:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:55Z",
+          "local": "2025-08-01 09:55+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 08:11Z",
+          "local": "2025-08-01 10:11+02:00"
+        },
+        "terminal": "2",
+        "gate": "F6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "FR 2989",
+      "callSign": "RYR15YZ",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-GJT",
+        "modeS": "4CACE0",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Ryanair",
+        "iata": "FR",
+        "icao": "RYR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LFPG",
+          "iata": "CDG",
+          "name": "Paris",
+          "timeZone": "Europe/Paris"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 07:55Z",
+          "local": "2025-08-01 09:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 07:55Z",
+          "local": "2025-08-01 09:55+02:00"
+        },
+        "terminal": "2",
+        "gate": "A20",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "AF 1751",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "model": "Airbus A220-300"
+      },
+      "airline": {
+        "name": "Air France",
+        "iata": "AF",
+        "icao": "AFR"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "ESSA",
+          "iata": "ARN",
+          "name": "Stockholm",
+          "timeZone": "Europe/Stockholm"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:10Z",
+          "local": "2025-08-01 10:10+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:10Z",
+          "local": "2025-08-01 10:10+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 08:14Z",
+          "local": "2025-08-01 10:14+02:00"
+        },
+        "terminal": "2",
+        "gate": "A6",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 3196",
+      "callSign": "NSZ3196",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-FGI",
+        "modeS": "47C0D9",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTFM",
+          "iata": "IST",
+          "name": "Istanbul",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:25Z",
+          "local": "2025-08-01 10:25+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:15Z",
+          "local": "2025-08-01 10:15+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 08:38Z",
+          "local": "2025-08-01 10:38+02:00"
+        },
+        "terminal": "2",
+        "gate": "C30",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "TK 1784",
+      "callSign": "THY6CL",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-LPK",
+        "modeS": "4BB20B",
+        "model": "Airbus A321 NEO"
+      },
+      "airline": {
+        "name": "Turkish",
+        "iata": "TK",
+        "icao": "THY"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LIPE",
+          "iata": "BLQ",
+          "name": "Bologna",
+          "timeZone": "Europe/Rome"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:35Z",
+          "local": "2025-08-01 10:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:35Z",
+          "local": "2025-08-01 10:35+02:00"
+        },
+        "terminal": "3",
+        "gate": "D1",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 2683",
+      "callSign": "SAS56D",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "EI-SIF",
+        "modeS": "4CAF82",
+        "model": "Airbus A320 NEO"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OLBA",
+          "iata": "BEY",
+          "name": "Beirut",
+          "timeZone": "Asia/Beirut"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:45Z",
+          "local": "2025-08-01 10:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:35Z",
+          "local": "2025-08-01 10:35+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 09:10Z",
+          "local": "2025-08-01 11:10+02:00"
+        },
+        "terminal": "2",
+        "gate": "C33",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "ME 226",
+      "callSign": "MEA226",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "OD-MRR",
+        "modeS": "748020",
+        "model": "Airbus A320"
+      },
+      "airline": {
+        "name": "Middle East",
+        "iata": "ME",
+        "icao": "MEA"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEMG",
+          "iata": "AGP",
+          "name": "Málaga",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:35Z",
+          "local": "2025-08-01 10:35+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:35Z",
+          "local": "2025-08-01 10:35+02:00"
+        },
+        "terminal": "2",
+        "gate": "A4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 5071",
+      "callSign": "NSZ5071",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "LN-FGF",
+        "modeS": "47BFB3",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EPWA",
+          "iata": "WAW",
+          "name": "Warsaw",
+          "timeZone": "Europe/Warsaw"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:40Z",
+          "local": "2025-08-01 10:40+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:40Z",
+          "local": "2025-08-01 10:40+02:00"
+        },
+        "terminal": "2",
+        "gate": "A17",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "LO 464",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "airline": {
+        "name": "LOT - Polish",
+        "iata": "LO",
+        "icao": "LOT"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EKYT",
+          "iata": "AAL",
+          "name": "Aalborg",
+          "timeZone": "Europe/Copenhagen"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:45Z",
+          "local": "2025-08-01 10:45+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:45Z",
+          "local": "2025-08-01 10:45+02:00"
+        },
+        "terminal": "3",
+        "gate": "E4",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "SK 1207",
+      "callSign": "SAS1207",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-MKF",
+        "modeS": "4AB566",
+        "model": "ATR 72"
+      },
+      "airline": {
+        "name": "SAS",
+        "iata": "SK",
+        "icao": "SAS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "EGLL",
+          "iata": "LHR",
+          "name": "London",
+          "timeZone": "Europe/London"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 09:00Z",
+          "local": "2025-08-01 11:00+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:50Z",
+          "local": "2025-08-01 10:50+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 09:08Z",
+          "local": "2025-08-01 11:08+02:00"
+        },
+        "terminal": "2",
+        "gate": "C27",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "BA 813",
+      "callSign": "BAW813C",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "G-EUYR",
+        "modeS": "40697C",
+        "model": "Airbus A320 (Sharklets)"
+      },
+      "airline": {
+        "name": "British",
+        "iata": "BA",
+        "icao": "BAW"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "OMAA",
+          "iata": "AUH",
+          "name": "Abu Dhabi Island and Internal Islands City",
+          "timeZone": "Asia/Dubai"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:50Z",
+          "local": "2025-08-01 10:50+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:50Z",
+          "local": "2025-08-01 10:50+02:00"
+        },
+        "terminal": "2",
+        "gate": "C36",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "EY 178",
+      "callSign": "ETD4EA",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "A6-BMG",
+        "modeS": "89653E",
+        "model": "Boeing 787-10"
+      },
+      "airline": {
+        "name": "Etihad",
+        "iata": "EY",
+        "icao": "ETD"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LTAI",
+          "iata": "AYT",
+          "name": "Antalya",
+          "timeZone": "Europe/Istanbul"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:55Z",
+          "local": "2025-08-01 10:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:55Z",
+          "local": "2025-08-01 10:55+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 09:13Z",
+          "local": "2025-08-01 11:13+02:00"
+        },
+        "terminal": "2",
+        "gate": "C32",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "XQ 573",
+      "callSign": "SXS7N",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "TC-SEI",
+        "modeS": "4BCCA9",
+        "model": "Boeing 737-800"
+      },
+      "airline": {
+        "name": "Sun Express",
+        "iata": "XQ",
+        "icao": "SXS"
+      }
+    },
+    {
+      "movement": {
+        "airport": {
+          "icao": "LEAL",
+          "iata": "ALC",
+          "name": "Alicante",
+          "timeZone": "Europe/Madrid"
+        },
+        "scheduledTime": {
+          "utc": "2025-08-01 08:55Z",
+          "local": "2025-08-01 10:55+02:00"
+        },
+        "revisedTime": {
+          "utc": "2025-08-01 08:55Z",
+          "local": "2025-08-01 10:55+02:00"
+        },
+        "runwayTime": {
+          "utc": "2025-08-01 09:11Z",
+          "local": "2025-08-01 11:11+02:00"
+        },
+        "terminal": "2",
+        "gate": "A18",
+        "quality": [
+          "Basic",
+          "Live"
+        ]
+      },
+      "number": "D8 5371",
+      "callSign": "NSZ37F",
+      "status": "Departed",
+      "codeshareStatus": "IsOperator",
+      "isCargo": false,
+      "aircraft": {
+        "reg": "SE-RTS",
+        "modeS": "4ACA93",
+        "model": "Boeing 737 MAX 8"
+      },
+      "airline": {
+        "name": "Norwegian Air Sweden",
+        "iata": "D8",
+        "icao": "NSZ"
+      }
+    }
+  ]
+}

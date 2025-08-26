@@ -1,0 +1,347 @@
+table _MEASURES
+	lineageTag: 0d477fb9-6d6e-4d3b-ad23-c82557111047
+
+	measure PASSENGERS = CALCULATE(COUNT(TICKETS[unique_id]))
+		formatString: #,0
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: d2728f4a-bc5e-4714-bab5-47d2b071e250
+
+	measure FLIGHTS = CALCULATE(COUNT(FLIGHTS[transaction_id]))
+		formatString: #,0
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: 3c25f797-7a60-4316-a2e7-f7003e641a97
+
+	measure 'AVG. PASSENGERS' = DIVIDE([PASSENGERS],[FLIGHTS],0)
+		formatString: 0
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: 029ba3f0-77e6-4650-8270-aec3cdb7c3ae
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'DELAYED FLIGHTS' =
+			
+			VAR DelayMin = 30
+			VAR ret_val = CALCULATE([FLIGHTS], FLIGHTS[dep_delay_minutes]>DelayMin)
+			RETURN ret_val
+		formatString: 0
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: 41d38ef7-5e31-4558-a1c6-6ccdc9c9e998
+
+	measure 'NOT DELAYED FLIGHTS' =
+			
+			VAR DelayMin = 30
+			VAR ret_val = CALCULATE([FLIGHTS DEPARTED], FLIGHTS[dep_delay_minutes]<=DelayMin)
+			RETURN ret_val
+		formatString: #,0
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: 9529167b-4bf1-47da-ac47-5f97e4e204b4
+
+	measure 'FLIGHTS DEPARTED' = CALCULATE([FLIGHTS],FLIGHTS[status]= "Departed")
+		formatString: #,0
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: 05872fd8-316d-4430-8f32-d6729b1df87d
+
+	measure 'PASSENGERS DEPARTED' = CALCULATE(COUNT(TICKETS[unique_id]),FLIGHTS[status]="Departed")
+		formatString: #,0
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: bccee000-6343-4844-bbc3-06bb816a3701
+
+	measure 'KPI DELAYED PLANES (NUMBER)' =
+			
+			VAR kpi_meas = [KPI DELAYED PLANES]
+			VAR ret_val = [FLIGHTS DEPARTED]*kpi_meas
+			RETURN ret_val
+		formatString: #,0
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: e38d9be5-bc82-42b1-a097-f865a2326120
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'NOT DELAYED FLIGHTS (%)' = DIVIDE([NOT DELAYED FLIGHTS],[FLIGHTS DEPARTED],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		displayFolder: PAGE 1: OVERVIEW
+		lineageTag: e779cdb8-3062-4444-922d-9ce837f00f5c
+
+	measure 'COLOR DELAYED FLIGHTS' =
+			
+			VAR kpi_goal = [KPI DELAYED PLANES]
+			VAR ret_val = IF([NOT DELAYED FLIGHTS (%)]<kpi_goal,"#FF0000","#63AD4E")
+			RETURN ret_val
+		displayFolder: VISUAL ELEMENTS
+		lineageTag: 98ef81e1-22dd-4e37-91f4-75846debec17
+
+	measure 'KPI DELAYED PLANES' = 0.85
+		displayFolder: KPIS
+		lineageTag: cc5371c3-30ed-446f-9e71-829d1f2e00ce
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'MEDIAN CHECKIN UNTIL TRAVEL (HOUR)' =
+			
+			VAR median_time = [MEDIAN CHECKIN UNTIL TRAVEL (MIN)]
+			VAR ret_val = DIVIDE(median_time,60,0)
+			RETURN ret_val
+		formatString: 0.00
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: ac3bba30-10b6-4876-9a8e-b55b529b21e4
+
+	measure 'MEDIAN SECURITY UNTIL TRAVEL (HOUR)' =
+			
+			VAR median_time = [MEDIAN SECURITY UNTIL TRAVEL (MIN)]
+			VAR ret_val = DIVIDE(median_time,60,0)
+			RETURN ret_val
+		formatString: 0.00
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: 718ec116-ae01-461e-bc4e-fbe739d49c0f
+
+	measure 'MEDIAN DELAY' =
+			
+			VAR median_time = CALCULATE(MEDIAN(FLIGHTS[dep_delay_minutes]))
+			VAR ret_val = DIVIDE(median_time,60,0)
+			RETURN ret_val
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: 96b952de-95e5-44db-a6d7-6ae7b9fce4a3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'KPI SECURITY' = 0.8
+		displayFolder: KPIS
+		lineageTag: 180c0f62-29cf-493a-9d30-b2741070070e
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'PASSENGERS THROUGH SEQ' = CALCULATE(COUNT(TICKETS[unique_id]),TICKETS[passed_security__before_schedule (MIN)] <> BLANK())
+		formatString: #,0
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: be7b036f-d160-4678-869a-491edcfb576a
+
+	measure 'PASSENGERS THROUGH SEQ IN GOOD TIME' =
+			
+			VAR goodtime = 60
+			VAR ret_val = CALCULATE(COUNT(TICKETS[unique_id]),TICKETS[passed_security__before_schedule (MIN)] <> BLANK() && TICKETS[passed_security__before_schedule (MIN)] > goodtime)
+			RETURN ret_val
+		formatString: #,0
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: f30264f1-9186-4f30-bec8-28f8223bcc18
+
+	measure 'PASSENGERS THROUGH SEQ IN GOOD TIME (%)' = DIVIDE([PASSENGERS THROUGH SEQ IN GOOD TIME],[PASSENGERS THROUGH SEQ],0)
+		formatString: 0.00\ %;-0.00\ %;0.00\ %
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: a36b9c07-ce8e-4364-ac54-53ba2168a5bb
+
+	measure 'KPI PASSENGER THROUGH IN GOOD TIME (NUMBER)' =
+			
+			VAR kpi_meas = [KPI SECURITY]
+			VAR ret_val = [PASSENGERS THROUGH SEQ]*kpi_meas
+			RETURN ret_val
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: 887923d7-112a-44dd-ad08-f6869b7768a3
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'COLOR PASSENGER SEQURITY' =
+			
+			VAR kpi_goal = [KPI SECURITY]
+			VAR ret_val = IF([PASSENGERS THROUGH SEQ IN GOOD TIME (%)]<kpi_goal,"#FF0000","#63AD4E")
+			RETURN ret_val
+		displayFolder: VISUAL ELEMENTS
+		lineageTag: 65c6e51a-83ae-498b-bc59-ec203b66670c
+
+	measure 'MEDIAN CHECKIN UNTIL TRAVEL (TEXT)' =
+			
+			VAR median_time = CALCULATE(MEDIAN(TICKETS[check_in_before_schedule (MIN)]))
+			VAR median_time_hour = ROUNDDOWN(DIVIDE(median_time,60,0),0)
+			VAR ret_val = median_time_hour & ":" & median_time-60*median_time_hour
+			RETURN ret_val
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: 3dd059ab-4d3e-4c95-ab6f-8c7d500a6b1b
+
+	measure 'MEDIAN SECURITY UNTIL TRAVEL (TEXT)' =
+			
+			VAR median_time = CALCULATE(MEDIAN(TICKETS[passed_security__before_schedule (MIN)]))
+			VAR median_time_hour = ROUNDDOWN(DIVIDE(median_time,60,0),0)
+			VAR ret_val = median_time_hour & ":" & median_time-60*median_time_hour
+			RETURN ret_val
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: 1b7c4767-6fdd-4bac-ab3f-3ac1862f1368
+
+	measure 'MEDIAN CHECKIN UNTIL SECURITY' = [MEDIAN CHECKIN UNTIL TRAVEL (HOUR)]-[MEDIAN SECURITY UNTIL TRAVEL (HOUR)]
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: 134abe77-50f7-4c4c-b784-53ba4991593c
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'MEDIAN CHECKIN UNTIL ACTUAL TRAVEL' = [MEDIAN CHECKIN UNTIL TRAVEL (HOUR)]+[MEDIAN DELAY]
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: be950c3e-2ae1-410c-ad1b-72c212f5df67
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'TIDSREJSE X-AXIS BOARDER' = [MEDIAN CHECKIN UNTIL ACTUAL TRAVEL]+3
+		displayFolder: VISUAL ELEMENTS
+		lineageTag: 0913b638-f9ea-4576-adbe-ddadeadc9727
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'MEDIAN DELAY (TEXT)' =
+			
+			VAR median_time = CALCULATE(MEDIAN(FLIGHTS[dep_delay_minutes]))
+			VAR median_time_hour = ROUNDDOWN(DIVIDE(median_time,60,0),0)
+			VAR ret_val = median_time_hour & ":" & median_time-60*median_time_hour
+			RETURN ret_val
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: dde1a4d2-d4c3-484d-a72f-ae3349f10786
+
+	measure 'MEDIAN CHECKIN UNTIL TRAVEL (MIN)' = CALCULATE(MEDIAN(TICKETS[check_in_before_schedule (MIN)]))
+		formatString: 0
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: 1e939f63-eb9c-4eda-84fc-4d8cad6a2dfe
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'MEDIAN SECURITY UNTIL TRAVEL (MIN)' = CALCULATE(MEDIAN(TICKETS[passed_security__before_schedule (MIN)]))
+		formatString: 0
+		displayFolder: PAGE 2: PASSENGER FLOW & TIMING
+		lineageTag: ea576f45-c0a6-41b4-815e-0442aee62599
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure SEATS = CALCULATE(SUM(FLIGHTS[Seats]))
+		formatString: #,0
+		lineageTag: 55756d32-4cbb-44b7-8c3b-c7078c5e4d95
+
+	measure 'SEATS USAGE RATE' = DIVIDE([PASSENGERS],[SEATS],1)
+		formatString: #,0\ %;-#,0\ %;#,0\ %
+		lineageTag: 01238886-126e-4c5f-b9b5-8006529cb8b0
+
+	measure 'SEATS USAGE RATE - AVG' =
+			
+			VAR su = SUMX( KEEPFILTERS(VALUES('FLIGHTS'[transaction_id])),
+			                CALCULATE([SEATS USAGE RATE])
+			            )
+			VAR n_flights = [FLIGHTS]
+			VAR ret_val = DIVIDE(su,n_flights,0)
+			RETURN ret_val
+		formatString: 0\ %;-0\ %;0\ %
+		lineageTag: bfe6ad0c-1a8e-4fff-987c-e042920e6b90
+
+		extendedProperty MeasureTemplate =
+				{
+				  "version": 0,
+				  "daxTemplateName": "AveragePerCategory"
+				}
+
+		changedProperty = FormatString
+
+	measure 'CONSTANT ONE' = 1
+		formatString: 0
+		lineageTag: 936ccfa8-d35a-4904-a05f-ca128ff62e0b
+
+		annotation PBI_FormatHint = {"isDecimal":true}
+
+	measure 'KPI SEAT RATE' = 0.75
+		lineageTag: 6a724bf6-ba8a-402d-a22c-f07f6bac754a
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'COLOR CAPACITY RATE' =
+			
+			VAR kpi_goal = [KPI SEAT RATE]
+			VAR ret_val = IF([SEATS USAGE RATE - AVG]<kpi_goal,"#FF0000","#63AD4E")
+			RETURN ret_val
+		lineageTag: 1fc9bab5-3bd0-4d95-bed8-45975f8995f5
+
+	measure 'SEATS VISUAL Y VALUE' =
+			
+			VAR seats_per_row = [SEATS VISUAL SEATS PER ROW]
+			VAR num_seats = CALCULATE(SELECTEDVALUE('_CUSTOMTABLE - NUMBERS'[SEATS]))
+			VAR median_seats = [MEDIAN SEATS]
+			VAR y_val = ROUNDUP(DIVIDE(num_seats,seats_per_row),0)
+			VAR ret_val = IF(y_val<=ROUNDUP(DIVIDE(median_seats,seats_per_row),0)/2,y_val,y_val+1)
+			RETURN -ret_val
+		lineageTag: b03a4f9d-0cfe-455b-ab37-c66887fc7505
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'SEATS VISUAL X VALUE' = ```
+			
+			VAR seats_per_row = [SEATS VISUAL SEATS PER ROW]
+			VAR num_seats = CALCULATE(SELECTEDVALUE('_CUSTOMTABLE - NUMBERS'[SEATS]))
+			VAR x_val = MOD(num_seats-1,seats_per_row)+1
+			VAR ret_val = IF(x_val<=seats_per_row/2,x_val,x_val+1)
+			RETURN ret_val 
+			```
+		formatString: 0
+		lineageTag: fa243536-7dd1-426c-831f-0c6a0ddcbce5
+
+	measure 'MEDIAN SEATS' = CALCULATE(MEDIAN(FLIGHTS[Seats]))
+		lineageTag: cbdb717d-92b1-4f98-a980-710cee73b609
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'SEATS VISUAL - NUMBER OF VALID SEATS' =
+			
+			VAR sel_seat = CALCULATE(SELECTEDVALUE('_CUSTOMTABLE - NUMBERS'[SEATS]))
+			VAR med_seats = [MEDIAN SEATS]
+			VAR ret_val = IF(sel_seat<=med_seats,1,0)
+			RETURN ret_val
+		formatString: 0
+		lineageTag: 95282289-022a-45fa-9292-b3a0ae1ff6d2
+
+	measure 'SEATS VISUAL MIN Y VALUE' =
+			
+			VAR seats_per_row = [SEATS VISUAL SEATS PER ROW]
+			VAR median_seats = [MEDIAN SEATS]
+			VAR ret_val = ROUNDUP(DIVIDE(median_seats,seats_per_row),0)
+			RETURN -ret_val-2
+		lineageTag: 30d03a18-5736-4b56-adc0-b42d66f808cc
+
+		annotation PBI_FormatHint = {"isGeneralNumber":true}
+
+	measure 'SEATS VISUAL SEATS PER ROW' =
+			
+			VAR median_seats = [MEDIAN SEATS]
+			VAR ret_val =
+			    SWITCH(
+			        TRUE(),
+			        median_seats <= 50, 4,       -- Small props / bizjets (e.g. ATR42, Saab 340)
+			        median_seats <= 100, 6,      -- Regional jets (CRJ / E-Jets)
+			        median_seats <= 150, 6,      -- Small narrowbody (A319, 737-700 → 3+3)
+			        median_seats <= 250, 8,      -- Large narrowbody/small widebody (A321, 757 → 3+3 or 2+3+2)
+			        median_seats <= 350, 12,      -- Widebody (767, A330, 787 → 3+3+3)
+			        median_seats > 350, 12       -- Very large (777, A350, A380 → 3+4+3 / 3+5+3)
+			    )
+			RETURN
+			    ret_val
+		formatString: 0
+		lineageTag: a467e060-cc5c-4c2e-9022-4d4731271ab5
+
+	measure 'SEATS VISUAL MAX X VALUE' = [SEATS VISUAL SEATS PER ROW]+3
+		formatString: 0
+		lineageTag: 57a6ddbb-1c74-4578-b6ef-91a7a4f10e2a
+
+	measure 'COLOR SEAT VISUAL' =
+			
+			VAR sel_seat = CALCULATE(SELECTEDVALUE('_CUSTOMTABLE - NUMBERS'[SEATS]))
+			VAR med_seats = [MEDIAN SEATS]
+			VAR ret_val = IF(DIVIDE(sel_seat,med_seats,0)>[SEATS USAGE RATE - AVG],"#0A1E3F","#63AD4E")
+			RETURN ret_val
+		lineageTag: fb616cce-5b91-4f73-85f9-f386b538c71d
+
+	column Column
+		formatString: 0
+		lineageTag: c669c787-35e3-4816-9476-d1c1ae9be1f8
+		summarizeBy: sum
+		isNameInferred
+		sourceColumn: [Column]
+
+		annotation SummarizationSetBy = Automatic
+
+	partition _MEASURES = calculated
+		mode: import
+		source = Row("Column", BLANK())
+
+	annotation PBI_Id = de1bdc2be9394eb59d0594e1b562e37d
+
+	annotation 436ba87b-9c83-4389-a31b-ebd06a36be98 = {"Expression":""}
+

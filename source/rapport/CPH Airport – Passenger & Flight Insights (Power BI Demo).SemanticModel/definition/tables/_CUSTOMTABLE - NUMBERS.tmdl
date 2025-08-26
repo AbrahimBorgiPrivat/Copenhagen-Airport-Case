@@ -1,0 +1,17 @@
+table '_CUSTOMTABLE - NUMBERS'
+	lineageTag: 913e2ef8-e322-48e1-bd26-72180c35f069
+
+	column SEATS
+		formatString: 0
+		lineageTag: 9f597e31-539f-4d75-bc2f-c5735e2481be
+		summarizeBy: none
+		sourceColumn: [Value]
+
+		annotation SummarizationSetBy = User
+
+	partition '_CUSTOMTABLE - NUMBERS' = calculated
+		mode: import
+		source = GENERATESERIES(1,1000,1)
+
+	annotation PBI_Id = 656ada8c37924c33abea9c2a212ed44f
+

@@ -1,0 +1,41 @@
+{
+  "name": "CPHTheme",
+  "dataColors": [
+    "#0A1E3F",
+    "#FFD200",
+    "#1E90FF",
+    "#123A7C",
+    "#5A6270",
+    "#F5A623",
+    "#7FB3FF",
+    "#C9D3E7"
+  ],
+  "good": "#2E7D32",
+  "neutral": "#9E9E9E",
+  "bad": "#C62828",
+  "maximum": "#FFD200",
+  "center": "#1E90FF",
+  "minimum": "#C9D3E7",
+  "null": "#F5F7FA",
+  "background": "#FFFFFF",
+  "foreground": "#1C1C1C",
+  "tableAccent": "#FFD200",
+  "textClasses": {
+    "label": {
+      "fontFace": "Segoe UI",
+      "fontSize": 9
+    },
+    "callout": {
+      "fontFace": "Segoe UI",
+      "fontSize": 10
+    },
+    "title": {
+      "fontFace": "Segoe UI",
+      "fontSize": 12
+    },
+    "header": {
+      "fontFace": "Segoe UI Semibold",
+      "fontSize": 10
+    }
+  }
+}
