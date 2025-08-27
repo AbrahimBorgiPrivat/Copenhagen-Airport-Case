@@ -20,8 +20,6 @@ This file provides core ETL operations and helpers used across the entire codeba
 - **`ensure_table_structure()`**: Ensures a schema/table exists and validates its structure against `fields_dict`. Creates the schema/table if permitted.
 - **`update_insert_dw()`**: Performs an UPSERT into the target table using PostgreSQL's `ON CONFLICT` clause. Supports handling JSON fields and nulls.
 - **`load_json_file()`**: Loads JSON files from disk and validates the structure.
-- **`select_columns()`**: Maps, filters, and optionally timestamps records from a list of dictionaries.
-- **`get_part_day_intervals()`**: Splits a date range into configurable subintervals, useful for large incremental batch loads.
 
 These functions form the backbone of all ETL scripts.
 

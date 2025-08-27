@@ -1,32 +1,40 @@
-# scripts — Main Simulation & ETL Orchestration Entry Points
+# CPH AIRPORT — Simulation & ETL Orchestration
 
-This folder contains high-level orchestration scripts used to simulate, ingest, and upsert data for the Circle K loyalty and transactions platform.
+This repository contains the main orchestration scripts used to **simulate**, **ingest**, and **upsert** data for the **CPH Airport case**.
 
-Each script serves as an entry point to run a series of modules — such as data simulation (customers, cards, transactions), geographic enrichment (DAR/DAGI), and loading into a PostgreSQL environment.
-
----
-
-## Script Categories
-
-### `run_simulation_pipeline.py`
-- Orchestrates the full data simulation pipeline:
-  - Products
-  - Campaigns
-  - Segments
-  - Customers
-  - Cards
-  - Transactions
-- Pulls from `simulations` and `upserts`.
-
-### `run_datafordeler_pipeline.py` (example)
-- Loads public address and registry data from DAR and DAGI into PostgreSQL.
-- Reads files from `resource/json` and uses logic in `pipelines`.
+The goal is to generate realistic flight and passenger data, connect it to airports, and prepare the dataset for analysis in a PostgreSQL data warehouse.
 
 ---
 
-## Script Pattern
+## 📂 Script Categories
 
-Each main script uses the following modular, fault-tolerant pattern:
+### `api/`
+- Wrappers for external APIs.
+- **`airports_api.py`** — fetches airport information from OpenDataSoft and other sources.  
+- **`flights_api.py`** — fetches scheduled flights and enriches them with external APIs.
+
+### `pipelines/`
+- High-level orchestration pipelines combining simulation and upserts.  
+- **`cph_case_pipeline.py`** — entry point to run the full CPH Airport simulation and load it into PostgreSQL.
+
+### `simulations/`
+- Contains logic to simulate synthetic datasets.  
+- **`flights_tickets.py`** — generates synthetic flights and ticket bookings.  
+- **`passport.py`** — generates synthetic passport/customer data.
+
+### `upserts/`
+- ETL logic for inserting/updating into the `cph_airport` schema in PostgreSQL.  
+- **`upsert_aircraft_models.py`** — loads metadata about aircraft models.  
+- **`upsert_airports.py`** — loads airport data.  
+- **`upsert_flights.py`** — loads flight records.  
+- **`upsert_passport.py`** — loads passenger/passport data.  
+- **`upsert_tickets.py`** — loads ticket and check-in/security events.
+
+---
+
+## ⚙️ Script Pattern
+
+Each orchestrator follows a modular pattern:
 
 ```python
 run_modules = [
@@ -43,27 +51,39 @@ for name, module in run_modules:
         print(f"❌ Error in {name}: {e}\n")
 ```
 
-This allows one failed step to be logged without halting the full pipeline.
+This ensures one failed step does not stop the entire pipeline.
 
 ---
 
-## Running a Script
+## ▶️ Running a Pipeline
 
-Run any orchestrator using Poetry:
+Run any orchestrator via Poetry:
 
 ```bash
-poetry run python scripts/pipelines/cirkleKsimulations.py
+poetry run python scripts/pipelines/cph_case_pipeline.py
 ```
-
-Replace the filename as needed to run ingestion or enrichment pipelines.
 
 ---
 
-## Notes
+## 📝 Notes
 
-- Scripts are designed to run standalone or as a sequence.
-- You can comment out individual modules in the `run_modules` list for fast dev cycles.
-- Logging can be extended to write to log tables or audit trails.
-- The modular layout supports dependency tracking and reusability across environments.
+- Pipelines can be run **standalone** or as a full sequence.
+- Comment out modules in the `run_modules` list to speed up dev cycles.
+- Logging can be extended to tables or audit trails in PostgreSQL.
+- Modular layout ensures **reusability** across pipelines and environments.
+
+---
+
+## 📊 Data Model Overview
+
+The simulation produces and loads:
+
+- **Airports** (from APIs and open datasets)  
+- **Aircraft models** (with seats, range, engine, ICAO/IATA codes)  
+- **Flights** (scheduled + synthetic)  
+- **Passports/Customers** (synthetic passenger pool)  
+- **Tickets** (linking flights and passengers, with check-in/security events)  
+
+This supports analysis of **passenger flow, flight occupancy, and airport operations**.
 
 ---

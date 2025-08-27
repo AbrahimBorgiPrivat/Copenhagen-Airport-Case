@@ -5,7 +5,7 @@ from datetime import datetime
 
 def upsert(create_table_if_not_exist=False,
            dt_from= datetime(2025, 7, 1),
-           days = 1):
+           days = 61):
     flights = flights_api.main(dt_from= dt_from,
                               days = days)
     db_name='cph_airport'
