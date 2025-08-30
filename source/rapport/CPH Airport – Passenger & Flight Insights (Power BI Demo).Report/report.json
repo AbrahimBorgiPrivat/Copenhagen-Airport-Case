@@ -1,5 +1,5 @@
 {
-  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":{\"visual\":\"1.8.95\",\"report\":\"2.0.95\",\"page\":\"1.3.95\"}},\"customTheme\":{\"name\":\"CPHTheme1316745553679185.json\",\"type\":1,\"version\":{\"visual\":\"2.1.0\",\"report\":\"2.1.0\",\"page\":\"2.0.0\"}}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}]}}",
+  "config": "{\"version\":\"5.66\",\"themeCollection\":{\"baseTheme\":{\"name\":\"CY24SU10\",\"type\":2,\"version\":{\"visual\":\"1.8.95\",\"report\":\"2.0.95\",\"page\":\"1.3.95\"}},\"customTheme\":{\"name\":\"CPHTheme1316745553679185.json\",\"type\":1,\"version\":{\"visual\":\"2.1.0\",\"report\":\"2.1.0\",\"page\":\"2.0.0\"}}},\"activeSectionIndex\":2,\"defaultDrillFilterOtherVisuals\":true,\"linguisticSchemaSyncVersion\":2,\"settings\":{\"useNewFilterPaneExperience\":true,\"allowChangeFilterTypes\":true,\"useStylableVisualContainerHeader\":true,\"queryLimitOption\":6,\"exportDataMode\":1,\"useDefaultAggregateDisplayName\":true,\"useEnhancedTooltips\":true},\"objects\":{\"section\":[{\"properties\":{\"verticalAlignment\":{\"expr\":{\"Literal\":{\"Value\":\"'Top'\"}}}}}],\"outspacePane\":[{\"properties\":{\"expanded\":{\"expr\":{\"Literal\":{\"Value\":\"false\"}}}}}]}}",
   "layoutOptimization": 0,
   "publicCustomVisuals": [
     "easyTerritoryTerritoryVisualB76516E7EB374091BC4E1AF5914B1F41",
@@ -108,7 +108,7 @@
   "sections": [
     {
       "config": "{\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'background.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"background0036968549021779706.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
-      "displayName": "Passenger Flow & Timing",
+      "displayName": "Passagerflow & Tidsmønstre",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
@@ -246,7 +246,7 @@
     },
     {
       "config": "{\"relationships\":[{\"source\":\"0af16f03d168b7e32d19\",\"target\":\"b648abe38b6cc40ee555\",\"type\":1},{\"source\":\"0af16f03d168b7e32d19\",\"target\":\"049cd0e47830239a998e\",\"type\":1},{\"source\":\"049cd0e47830239a998e\",\"target\":\"0af16f03d168b7e32d19\",\"type\":1},{\"source\":\"049cd0e47830239a998e\",\"target\":\"b648abe38b6cc40ee555\",\"type\":1},{\"source\":\"b648abe38b6cc40ee555\",\"target\":\"0af16f03d168b7e32d19\",\"type\":1},{\"source\":\"b648abe38b6cc40ee555\",\"target\":\"049cd0e47830239a998e\",\"type\":1}],\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'background.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"background0036968549021779706.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
-      "displayName": "Capacity & Coverage",
+      "displayName": "Kapacitet & Udnyttelse",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,
@@ -357,7 +357,7 @@
     },
     {
       "config": "{\"relationships\":[{\"source\":\"81d4724200a940002827\",\"target\":\"4a97046b768e6d53b086\",\"type\":1},{\"source\":\"81d4724200a940002827\",\"target\":\"8453816b8a7961135cd6\",\"type\":1},{\"source\":\"81d4724200a940002827\",\"target\":\"602f080cdeada8c1ae89\",\"type\":1},{\"source\":\"4a97046b768e6d53b086\",\"target\":\"81d4724200a940002827\",\"type\":1},{\"source\":\"4a97046b768e6d53b086\",\"target\":\"8453816b8a7961135cd6\",\"type\":1},{\"source\":\"4a97046b768e6d53b086\",\"target\":\"602f080cdeada8c1ae89\",\"type\":1},{\"source\":\"602f080cdeada8c1ae89\",\"target\":\"4a97046b768e6d53b086\",\"type\":1},{\"source\":\"602f080cdeada8c1ae89\",\"target\":\"81d4724200a940002827\",\"type\":1},{\"source\":\"602f080cdeada8c1ae89\",\"target\":\"8453816b8a7961135cd6\",\"type\":1},{\"source\":\"8453816b8a7961135cd6\",\"target\":\"602f080cdeada8c1ae89\",\"type\":1},{\"source\":\"8453816b8a7961135cd6\",\"target\":\"81d4724200a940002827\",\"type\":1},{\"source\":\"8453816b8a7961135cd6\",\"target\":\"4a97046b768e6d53b086\",\"type\":1}],\"objects\":{\"background\":[{\"properties\":{\"image\":{\"image\":{\"name\":{\"expr\":{\"Literal\":{\"Value\":\"'background.png'\"}}},\"url\":{\"expr\":{\"ResourcePackageItem\":{\"PackageName\":\"RegisteredResources\",\"PackageType\":1,\"ItemName\":\"background42212967498373943.png\"}}},\"scaling\":{\"expr\":{\"Literal\":{\"Value\":\"'Normal'\"}}}}},\"transparency\":{\"expr\":{\"Literal\":{\"Value\":\"0D\"}}}}}]}}",
-      "displayName": "Overview",
+      "displayName": "Overblik",
       "displayOption": 1,
       "filters": "[]",
       "height": 720.00,

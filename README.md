@@ -18,17 +18,16 @@ It covers **data simulation, ETL, enrichment, and reporting** to create a "reali
 
 ---
 
-## 📂 Project Structure
+## 📂 Project Structure (paste-ready)
 
+```text
 COPENHAGEN AIRPORT/
-├── docs/               # Documentation, design notes, and supporting material
-│
-├── resource/           # Assets and themes used in reporting
-│
-├── source/             # Root folder for code and rapport
-│   ├── code/           # Core Python codebase (simulation + ETL)
-│   └── rapport/        # Power BI dashboards & resources
-
+├─ docs/                 # Documentation, design notes, supporting material
+├─ resource/             # Assets and themes used in reporting
+└─ source/               # Root folder for code and rapport
+   ├─ code/              # Core Python codebase (simulation + ETL)
+   └─ rapport/           # Power BI dashboards & resources
+```
 
 ---
 

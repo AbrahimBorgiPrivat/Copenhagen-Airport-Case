@@ -8,6 +8,7 @@ The reports are designed to demonstrate insights into **passenger flow, seat occ
 
 ## 📂 Structure
 
+```text
 rapport/
 ├── CPH Airport – Passenger & Flight Insights (Power BI Demo).Report
 ├── CPH Airport – Passenger & Flight Insights (Power BI Demo).SemanticModel
@@ -16,6 +17,7 @@ rapport/
 │   ├── images/
 │   └── CPH_Airport_theme.json
 └── README.md
+```
 
 ---
 

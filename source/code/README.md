@@ -7,6 +7,7 @@ It is designed to simulate flights, passengers, and tickets, fetch real airport 
 
 ## 📦 Project Structure
 
+```text
 code/
 ├── .venv/                  # Virtual environment (Poetry-managed)
 ├── classes/                # Core classes and DB engine
@@ -51,6 +52,7 @@ code/
 ├── poetry.lock             # Locked dependency versions
 ├── README.md               # Project documentation
 └── .env.example.txt        # Example environment variables
+```
 
 ---
 
